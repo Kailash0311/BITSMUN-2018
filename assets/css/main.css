@@ -1,33 +1,4 @@
-/*
- * Evento -  Event html  Template
- * Build Date: jan 2018
- * Author: colorlib
- * Copyright (C) 2018 colorlib
- */
 
-/* ------------------------------------- */
-
-/* TABLE OF CONTENTS
-/* -------------------------------------
-    . GENERAL
-    . Header
-    . Footer
-    . BUTTONS
-    . ICON BOXES
-    . PROJECTS SECTION (PORTFOLIO)
-    . BLOG  SECTION
-    . COUNTER SECTION
-    . Testimonial SECTION
-	. Contact Section
-	.PROGRESSBAR
-	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
-	------------------------------------- */
-
-/*  ----------------------------------------------------
-1. GENERAL
--------------------------------------------------------- */
-
-/* ----------------IMPORT GOOGLE FONTS ------------------- */
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
 /* ----------------Text Fonts ------------------- */
@@ -146,8 +117,21 @@ ul.nosyely_list {
   padding: 10px 0;
   font-size: 36px;
 }
-
+.section_title .letter-title {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 36px;
+}
 .section_title .title:before {
+  width: 30px;
+  content: " ";
+  position: absolute;
+  border-top: solid 3px #f50136;
+  left: 0;
+  top: 0;
+}
+
+.section_title .letter-title:before {
   width: 30px;
   content: " ";
   position: absolute;
@@ -178,7 +162,21 @@ ul.nosyely_list {
   font-size: 14px;
   font-weight: 400;
 }
-
+.committees-logos{
+  background: #000;
+}
+.letter-para-text{
+  font-size:20px;
+  line-height: 2em;
+  color: #000;
+  word-spacing: 0.25em;
+}
+.letter-para-heading{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  font-style: oblique;
+}
 #days {
   font-size: 50px;
   color: #db4844;
@@ -213,6 +211,11 @@ ul.nosyely_list {
   bottom: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+}
+.committees-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: white;
 }
 
 .brand_item {
