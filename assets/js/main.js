@@ -49,9 +49,7 @@ $(document).ready(function() {
             $('.header').addClass('sticky_header');
         }
     });
-    /* --------------------------------------------------------
-     COUNTER JS
-     ----------------------------------------------------------- */
+   // Counter JS starts
      function makeTimer() {
 
         var endTime = new Date("26 October 2018 00:00:00 GMT+05:30");			
@@ -79,18 +77,7 @@ $(document).ready(function() {
 }
 
 setInterval(function() { makeTimer(); }, 1000);
-
-    // $('.counter').counterUp({
-    //     delay: 5,
-    //     time: 3000
-    // });
-
-    // $(".countdown")
-    //     .countdown("2018/03/01", function(event) {
-    //         $(this).html(
-    //             event.strftime('<div>%w <span>Weeks</span></div>  <div>%D <span>Days</span></div>  <div>%H<span>Hours</span></div> <div>%M<span>Minutes</span></div> <div>%S<span>Seconds</span></div>')
-    //         );
-    //     });
+    //Counter JS ends 
 
     /* ==============================================
      SLIDER
@@ -110,7 +97,7 @@ setInterval(function() { makeTimer(); }, 1000);
 
     $(".brand_carousel").owlCarousel({
         loop:true,
-        autoplay:true,
+        autoplay:false,
         smartSpeed:450,
         autoplayHoverPause:false,
         dots:false,
@@ -125,7 +112,7 @@ setInterval(function() { makeTimer(); }, 1000);
 
             },
             1000:{
-                items:5
+                items:4
 
             }
         },
