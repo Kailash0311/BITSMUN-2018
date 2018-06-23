@@ -231,16 +231,16 @@ ul.nosyely_list {
   background: #000;
 }
 .letter-para-text{
-  font-size:20px;
+  font-size:15px;
   line-height: 2em;
   color: #000;
   word-spacing: 0.25em;
 }
 .letter-para-heading{
-  font-size: 30px;
+  font-size: 24px;
   font-family: 'Times New Roman', Times, serif;
   color: #000;
-  font-style: oblique;
+  font-style: normal;
 }
 #days {
   font-size: 44px;
