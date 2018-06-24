@@ -8,6 +8,7 @@
 .count-class{
   display: inline-block;
   margin : 30px 30px;
+  background-color: hsla(0,0%,64%, 0.4)
 }
 #timer {
   display: inline-block;
@@ -208,12 +209,12 @@ ul.nosyely_list {
   text-align: center;
 }
 
-.countdown div {
+.counter{
   margin: 20px;
   display: inline-block;
   padding: 25px;
   min-width: 120px;
-  background-color: #F44336;
+  background-color: hsla(0,85%, 50%, 0.8);
   color: #ffffff;
   font-size: 48px;
   font-weight: 600;
@@ -230,34 +231,34 @@ ul.nosyely_list {
   background: #000;
 }
 .letter-para-text{
-  font-size:20px;
+  font-size:15px;
   line-height: 2em;
   color: #000;
   word-spacing: 0.25em;
 }
 .letter-para-heading{
-  font-size: 30px;
+  font-size: 24px;
   font-family: 'Times New Roman', Times, serif;
   color: #000;
-  font-style: oblique;
+  font-style: normal;
 }
 #days {
-  font-size: 50px;
-  color: #db4844;
+  font-size: 44px;
+  color: #;
 }
 
 #hours {
-  font-size: 50px;
+  font-size: 44px;
   color: #f07c22;
 }
 
 #minutes {
-  font-size: 50px;
+  font-size: 44px;
   color: #f6da74;
 }
 
 #seconds {
-  font-size: 50px;
+  font-size: 44px;
   color: #abcd58;
 }
 
