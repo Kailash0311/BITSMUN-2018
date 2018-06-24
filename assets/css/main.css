@@ -3,23 +3,30 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
 @import url('https://fonts.googleapis.com/css?family=Noticia+Text');
 @import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Faustina')
+@import url('https://fonts.googleapis.com/css?family=Faustina');
 /* ----------------Text Fonts ------------------- */
-.count-class{
-  display: inline-block;
-  margin : 30px 30px;
-  background-color: hsla(0,0%,64%, 0.4)
-}
 #timer {
   display: inline-block;
   width: 100%;
 }
+
+.count-class{
+  display: inline-block;
+  margin : 30px 30px;
+  background-color: hsla(0,0%,64%, 0.4)
+};
+
+
 .team-heading{
   font-family: 'Noticia Text', serif;
   margin: 2em auto;
   font-size: 5em;
   line-height: 1em;
   color: #000;
+}
+.count-class{
+  display: inline-block;
+  margin : 30px 30px;
 }
 .team
 ul.social-buttons li a {
@@ -227,8 +234,13 @@ ul.nosyely_list {
   font-size: 14px;
   font-weight: 400;
 }
+.committees {
+  position: relative;
+  z-index: 1;
+}
 .committees-logos{
-  background: #000;
+ height: 108px;
+ width: 108px;
 }
 .letter-para-text{
   font-size:15px;
@@ -244,7 +256,7 @@ ul.nosyely_list {
 }
 #days {
   font-size: 44px;
-  color: #;
+  color: #ff0077;
 }
 
 #hours {
