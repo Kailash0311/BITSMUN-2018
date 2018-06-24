@@ -12,9 +12,6 @@
    
     <!-- ========== STYLESHEETS ========== -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> 
     <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Fonts Icon CSS -->
@@ -31,6 +28,7 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -102,7 +100,7 @@
                 <div class="slider_content">
                     <div class="slider-content-inner">
                         <div class="container">
-                            <div class="slider-content-left">
+                            <div class="slider-content-right">
                                 <h2 class="cover-title">
                                     Prepare yourself for the
                                 </h2>
@@ -269,26 +267,27 @@
                 	</div>
 
                 </div>
-                <div class="col-md-5 text-md-left text-center">
-                	<form action="https://docs.google.com/forms/d/e/1FAIpQLSelq_kcgOUddQyUeTAXdodr47KsXdrAK8Dm0-yKLfAq4pc5_g/viewform?usp=sf_link" method="get">
+                <div class="col-md-5 text-md-left text-center" id="frm">
+                	<form action="https://docs.google.com/forms/d/e/1FAIpQLSelq_kcgOUddQyUeTAXdodr47KsXdrAK8Dm0-yKLfAq4pc5_g/formResponse" method="post" target="_blank">
 	            		<div class="row mdl-textfield mdl-js-textfield">
 							<input class="mdl-textfield__input" type="text" id="entry.366340186" name="entry.366340186">
 							<label class="mdl-textfield__label" for="sample1">NAME</label>
 						</div>
 	            		<div class="row mdl-textfield mdl-js-textfield">
-							<input class="mdl-textfield__input" type="text" id="sample1">
+							<input class="mdl-textfield__input" type="text" id="entry.488801007" name="entry.488801007">
 							<label class="mdl-textfield__label" for="sample1">E-MAIL</label>
 						</div>
 	            		<div class="row mdl-textfield mdl-js-textfield">
-							<input class="mdl-textfield__input" type="text" id="sample1">
+							<input class="mdl-textfield__input" type="text" id="entry.1887981755" name="entry.1887981755">
 							<label class="mdl-textfield__label" for="sample1">PHONE</label>
 						</div>					
 						<div class="mdl-textfield mdl-js-textfield">
-						    <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+						    <textarea class="mdl-textfield__input" type="text" rows= "3" id="entry.606614713" name="entry.606614713"
+						    ></textarea>
 						    <label class="mdl-textfield__label" for="sample5">WRITE YOUR QUERY HERE...</label>
 						 </div>
 						<div class="row" style="">
-	                    <button class="btn btn-primary btn-rounded mt30" type="submit">Submit</button>
+	                    <input value="Submit" class="btn btn-primary btn-rounded mt30" type="submit">
 	                	</div>
 	                </form>	
                 </div>

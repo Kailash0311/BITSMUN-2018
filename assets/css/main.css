@@ -2176,6 +2176,11 @@ Cover
   text-align: left;
 }
 
+.cover_slider .slider-content-right {
+  max-width: 100%;
+  text-align: right;
+}
+
 .cover_slider .cover_item {
   width: 100%;
   position: relative;
