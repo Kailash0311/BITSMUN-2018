@@ -299,7 +299,7 @@ ul.nosyely_list {
  width: 108px;
 }
 .letter-para-text{
-  font-size:20px;
+  font-size:15px;
   line-height: 2em;
   color: #000;
   word-spacing: 0.25em;
@@ -2245,6 +2245,11 @@ Cover
 .cover_slider .slider-content-left {
   max-width: 800px;
   text-align: left;
+}
+
+.cover_slider .slider-content-right {
+  max-width: 100%;
+  text-align: right;
 }
 
 .cover_slider .cover_item {
