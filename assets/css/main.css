@@ -279,7 +279,7 @@ ul.nosyely_list {
   display: inline-block;
   padding: 25px;
   min-width: 120px;
-  background-color: hsla(0,85%, 50%, 0.8);
+  background-color: hsla(24, 86%, 17%, 0.6);
   color: #ffffff;
   font-size: 48px;
   font-weight: 600;
@@ -314,7 +314,7 @@ ul.nosyely_list {
 }
 #days {
   font-size: 44px;
-  color: #ff0077;
+  color: #B88F28;
 }
 
 #hours {
@@ -1981,13 +1981,13 @@ header.sticky_header {
 -------------------------------------------------------- */
 
 footer {
-  padding: 50px 0 100px;
+  padding-bottom: 30px;
   background-color: #0b031b;
 }
 
 footer .footer_box {
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 footer .footer_box h4.footer_title {
