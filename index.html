@@ -5,6 +5,8 @@
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /> -->
     <!-- ========== Title ========== -->
     <title> BITSMUN-2018</title>
     <!-- ========== Favicon Ico ========== -->
@@ -70,7 +72,7 @@
             <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
                 <ul class=" nav navbar-nav menu">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">LETTER</a>
+                        <a class="nav-link active" href="#letter">LETTER</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">COMMITTEES</a>
@@ -85,7 +87,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">TEAM</a>
+                        <a class="nav-link " href="team1.html">TEAM</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="#">SPONSORS</a>
@@ -158,7 +160,7 @@
 
 
     <!--event countdown -->
-    <section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/123.png');">
+    <section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/counter-bg.jpg');">
         <div class="overlay_dark"></div>
         <div class="container">
             <div class="row justify-content-center">
@@ -179,10 +181,10 @@
 
 
     <!--about the event -->
-    <section class="pt100 pb100">
+    <section class="pt100 pb100" id="letter">
         <div class="container">
-            <div class="section_title">
-                <h3 class="letter-title">
+            <div class="section_title" >
+                <h3 class="letter-title" >
                     LETTER FROM THE SECRETARY GENERAL
                 </h3>
             </div>
@@ -277,7 +279,7 @@
                     </div>
 
 
-                    <div class="col-md-5 col-xs-12 col-sm-12 letter-para-text text-white text-uppercase d-sm-inline">
+                    <div class="col-md-5 col-xs-12 col-sm-12 letter-para-text text-white text-uppercase d-sm-inline pl0">
                         <br><br>The United Nations General Assembly (UNGA) is the largest congregation of nations that recommends legal, political, economic,
                         social and humanitarian efforts that help save lives of millions across the world, where each country
                         has an equal voice and vote regardless of the agenda. Witness and be a part of the passionate speeches,
@@ -509,10 +511,10 @@
                     </div>
                 </div>
             </div>                       
-
+            <button class=" w3-button w3-display-left w3-hover-none w3-hover-text-white" onclick="plusDivs(-1)" style="font-size:2em;">&#10094;</button>
+            <button class="w3-button w3-display-right w3-hover-none w3-hover-text-white" onclick="plusDivs(1)" style="font-size: 2em;">&#10095;</button>
             <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
@@ -520,6 +522,8 @@
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 
             </div>
+            <!-- <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button> -->
         </div>
     </div>
     <!-- Phone-only-visible less than 1300px -->
@@ -541,7 +545,7 @@
 
                             The United Nations General Assembly (UNGA) is the largest congregation of nations that recommends legal, political, economic,
                             social and humanitarian efforts that help save lives of millions across the world, where each
-                            country has an equal voice and vote regardless of the agenda. Witness and be a part of the passionate
+                            country has an equal voice and vote regardless of the agenda. Witness and be a part of the       passionate 
                             speeches, the delirious negotiations, the blood boiling breaks and nail-biting voting sessions.
                             Test your prowess and speak your heart out as you try to find a middle ground with your rivals
                             using your negotiation and persuasion skills. Watch it all unfurl at UNGA of BITSMUN ’18.
