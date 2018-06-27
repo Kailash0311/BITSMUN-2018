@@ -20,7 +20,12 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
     <!-- Bootstrap CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Fonts Icon CSS -->
@@ -33,8 +38,11 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    
     <style>
+        #team{
+            background-color:aqua;
+        }
  .team-heading{ 
      font-family: 'Noticia Text', serif; margin-left: 10%; line-height: 1em; color: #000;
 }
@@ -44,6 +52,18 @@ div {
 .row {
     margin-left: 0;
     margin-right: 0;
+}
+
+.team-member  ul.social-buttons  li   a {
+  display: inline-block;
+  background-color: #222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  outline: 0;
 }
     </style>
 </head>
@@ -60,9 +80,12 @@ div {
             <a class="navbar-brand logo" href="#">
                 <img src="#" alt="BITSMUN-2018" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
-                <span class="glyphicon glyphicon-menu-down"></span>
-            </button>
+            <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation" style="border: none; margin-right: 20%;">
+                    
+            </button> -->
+            <i class="material-icons navbar-toggler" data-toggle="collapse" data-target="#headernav"aria-expanded="false" aria-label="Toggle navigation" style="border: none; margin-right: 20%;"></i>
+            
+        
             <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
                 <ul class=" nav navbar-nav menu">
                     <li class="nav-item">
@@ -96,7 +119,7 @@ div {
     </header>
 
 
-    <h2 class="text-center mt100 mb100 team-heading"> Our Team that made it look easy .</h2>
+    <h2 class="text-center mt100 mb100 team-heading ml-1">Our Team that made it look Easy</h2>
     <!-- <div class="team-photos">
     <div class="team-image">
         <div class="team-pic"><img src="./assets/img/Team Photos/Utkarsh Shankar BITSMUN Secretary .jpg"></div>
@@ -119,7 +142,7 @@ div {
         <div class="team-details">Image 1 details</div>
     </div>
 </div> -->
-    <div id="team" class="container-fluid text-center bg-grey">
+    <div id="team" class="container-fluid text-center">
         <div class="row text-center">
             <div class="col-lg-12 text-center">
                 <h3 class="team-subheading">Office Bearers</h3>
@@ -130,558 +153,521 @@ div {
             <div class="col-md-4 col-sm-12">
                 <div class="team-member">
                     <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive  .jpg" class="team-image rounded-circle" alt="">
-                    <h3 class="team-name"> Nishant Aggarwal</h3>
-                    <p class="text-muted">Web Dev Executive</p>
+                    <h3 class="team-name"> Pratyush Agarwal</h3>
+                <div>
+                    <img src="assets/img/PHOTOS FOR WEBSITE/Pratyush Agarwal Secretary General.jpg" alt="Pratyush Agarwal"class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                    <p class="text-muted">Secretary-General</p>
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
-                            <a href="https://www.facebook.com/madhav.singh.16">
+                            <a href="https://www.facebook.com/pratyushag57">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="tel:+919582581911">
+                            <a href="tel:+8910043467">
                                 <i class="fa fa-phone"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 team-member-card">
-                <div class="team-member">
-                    <img src="img/heads/1.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                    <h3>Ishan Rai</h3>
-                    <p class="text-muted">Director-General</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/rai.ishan97">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+919969458428">
-                                <i class="fa fa-phone"></i>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="col-md-4 col-sm-12">
+                    <div class="team-member">
+                        <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive  .jpg" class="team-image rounded-circle" alt="">
+                        <h3 class="team-name"> Shubham Sharma</h3>
+                        <div>
+                                <img src="assets/img/PHOTOS FOR WEBSITE/Shubham Sharma Director General.jpg" alt="Shubham Sharma"class="rounded-circle team-image" style="height: 250px;">
+                            </div>
+                        <p class="text-muted">Director-General</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/shubhamsharma1869">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="tel:+9603028007">
+                                    <i class="fa fa-phone"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-12 team-member-card justify-content-sm-center">
-                <div class="team-member">
-                    <img src="img/heads/2.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                    <h3>Shubham Sharma</h3>
-                    <p class="text-muted">Under Secretary-General</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/Shahrukhshubham">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+919603028007">
-                                <i class="fa fa-phone"></i>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-md-4 col-sm-12">
+                        <div class="team-member">
+                            <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive  .jpg" class="team-image rounded-circle" alt="">
+                            <h3 class="team-name">Utkarsh Shankarl</h3>
+                            <div>
+                                    <img src="assets/img/PHOTOS FOR WEBSITE/Utkarsh Shankar Secretary BITSMUN.jpg" alt="Pratyush Agarwal"class="rounded-circle team-image" style="height: 250px;">
+                                </div>
+                            <p class="text-muted">Under Secretary-General </p>
+                            <ul class="list-inline social-buttons">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/usshan">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="tel:+8851228197">
+                                        <i class="fa fa-phone"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            
+            <div class="col-md-4"></div>
+            <div class="col-md-4 col-sm-12">
+                    <div class="team-member">
+                        <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive  .jpg" class="team-image rounded-circle" alt="">
+                        <h3 class="team-name">Sundaresan M</h3>
+                        <div>
+                                <img src="assets/img/PHOTOS FOR WEBSITE/Sundaresan Manickam Treasurer.jpg" alt="Pratyush Agarwal"class="rounded-circle team-image" style="height: 250px;">
+                            </div>
+                        <p class="text-muted">Treasurer</p>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/sundaresan98">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="tel:+8056998333">
+                                    <i class="fa fa-phone"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/heads/4.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                    <h3>Asutosh Sistla</h3>
-                    <p class="text-muted">Treasurer</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/asutosh.sistla">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+919052949549">
-                                <i class="fa fa-phone"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>Delegate Affairs</h4>
-            </div>
-        </div>
-        <div class="row text-center slideanim slide">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/heads/8.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                    <h3> Koushal Devabhaktuni </h3>
-                    <p class="text-muted"> In-charge</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/koushal.devabhaktuni">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+918499010605">
-                                <i class="fa fa-phone"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <h3 class="section-subheading text-muted">Department Head and Executives</h3>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>Web Development</h4>
-            </div>
-        </div>
-        <div class="row text-center slideanim">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/heads/22.png" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                    <h3>Nischay Pro</h3>
-                    <p class="text-muted"> Mentor</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/nischay.pro">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+919848167747">
-                                <i class="fa fa-phone"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Nischay-Pro">
-                                <i class="fa fa-github-square"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/heads/20.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                    <h3>Ranjan Gsk</h3>
-                    <p class="text-muted"> Head</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="https://www.facebook.com/ranjan.gsk">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+919177006339">
-                                <i class="fa fa-phone"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/gskranjan">
-                                <i class="fa fa-github-square"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>Sponsorship</h4>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/17.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Tejas Kulkarni </h3>
-                <p class="text-muted"> Mentor</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/tejas.kulkarni.5201">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+918106975576">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/18.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Charan Meka </h3>
-                <p class="text-muted"> Head</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/charanmeka">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919515313501">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/19.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Ashutosh Ganguly </h3>
-                <p class="text-muted"> Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/ashutosh.ganguly12">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+917997083805">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>Online Publicity</h4>
-            </div>
-        </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/15.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3>Palak Oswal</h3>
-                <p class="text-muted"> Head</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/palak.oswal">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919705935341">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/16.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Aman Syed </h3>
-                <p class="text-muted"> Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/aman.3599">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+918790359970">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>Offline Publicity</h4>
-            </div>
-        </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/13.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Viswanatha Kasyap Pasumarthy </h3>
-                <p class="text-muted"> Head</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/viswanatha.kasyap">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+917799000310">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/14.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Sri Nayan Reddy </h3>
-                <p class="text-muted">Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/srinayan.reddy">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919989333644">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>Logistics </h4>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/7.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Suchit Kar </h3>
-                <p class="text-muted"> Head</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/MeIsSuchit">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+917286823259">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/11.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3>Samyak Gupta</h3>
-                <p class="text-muted"> Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/samyak.gupta.52">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+917989789512">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/8.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Koushal Devabhaktuni </h3>
-                <p class="text-muted"> Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/koushal.devabhaktuni">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+918499010605">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/9.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Harshvardhan Takawale </h3>
-                <p class="text-muted"> Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/harshvardhan.takawale">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919998219247">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/10.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Pranav Jadhav </h3>
-                <p class="text-muted"> Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/pranav.jadhav.714">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919833520831">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/12.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Yeshwanth Reddy </h3>
-                <p class="text-muted"> Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/yeshwanth1999">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919603560656">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>Design</h4>
-            </div>
-        </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/5.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3>Anshuman Das </h3>
-                <p class="text-muted"> Head</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/anshuman.das.9678">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919000622487">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.behance.net/f2015230fc49">
-                            <i class="fa fa-behance-square"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/6.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Vikranth Sagar </h3>
-                <p class="text-muted">Executive</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/VikranthSagar">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919100962900">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.behance.net/VikranthSagar">
-                            <i class="fa fa-behance-square"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4>BITSMUN Chronicle </h4>
-            </div>
-        </div>
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/21.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Harsha Sista </h3>
-                <p class="text-muted"> Editor</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/profile.php?id=100006401386133">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+917997084398">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h4> Vfx </h4>
-            </div>
-        </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/23.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Rut Vora </h3>
-                <p class="text-muted"> Head</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/rutvora">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+919925245062">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="team-member">
-                <img src="img/heads/24.jpg" class="img-responsive img-circle" style="width:250px!important;height:250px!important;" alt="">
-                <h3> Girish Nadiger </h3>
-                <p class="text-muted"> Head</p>
-                <ul class="list-inline social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/girish.nadiger">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-phone"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+
+        <div class="col-md-4"></div>
+        <div class="col-lg-12 text-center">
+        <h3 class="team-subheading">Web Development</h3>
+</div>
+ <div class="col-md-2"></div>
+    <div class="col-md-4 col-sm-12">
+        <div class="team-member">
+           <h3 class="team-name">Nishant Aggarwal</h3>
+           <div>
+                   <img src="assets/img/PHOTOS FOR WEBSITE/NIshant Aggarwal Web Development Executive  .jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+           </div>
+           <p class="text-muted">Executive</p>
+           <ul class="list-inline social-buttons">
+               <li class="list-inline-item">
+                   <a href="https://www.facebook.com/NA23799">
+                       <i class="fa fa-facebook"></i>
+                   </a>
+               </li>
+               <li class="list-inline-item">
+                   <a href="tel:+9501671388">
+                       <i class="fa fa-phone"></i>
+                   </a>
+               </li>
+           </ul>
+       </div>
     </div>
+    <div class="col-md-4 col-sm-12">
+        <div class="team-member">
+           <h3 class="team-name">Kailash Bhalaki</h3>
+           <div>
+                   <img src="assets/img/PHOTOS FOR WEBSITE/Kailash Bhalaki.png" alt="" class="rounded-circle team-image" style="height: 250px;">
+           </div>
+           <p class="text-muted">Executive</p>
+           <ul class="list-inline social-buttons">
+               <li class="list-inline-item">
+                   <a href="https://www.facebook.com/Kailash.311.Bhalaki">
+                       <i class="fa fa-facebook"></i>
+                   </a>
+               </li>
+               <li class="list-inline-item">
+                   <a href="tel:+9182865874">
+                       <i class="fa fa-phone"></i>
+                   </a>
+               </li>
+           </ul>
+       </div>
+    </div>
+        <div class="col-lg-12 text-center">
+            <h3 class="team-subheading">Design</h3>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive  .jpg" class="team-image rounded-circle" alt="">
+                <h3 class="team-name">Maitreyee Talnikar</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Maitreyee Talnikar Designe Executive.jpg" alt=""class="rounded-circle team-image" style="height: 250px;">
+                    </div>
+                <p class="text-muted">Executive- Design</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/maitreyee.talnikar">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+7259750449">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.behance.net/maitreyeet0781">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <img src="assets/img/Team Photos/Apurva Chinta Design Mentor.jpg .jpg" class="team-image rounded-circle" alt="">
+                <h3 class="team-name">Apurva Chinta</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Apurva Chinta Design Mentor.jpg" alt=""class="rounded-circle team-image" style="height: 250px;">
+                    </div>
+                <p class="text-muted">Design Mentor</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <!-- <a href="https://www.facebook.com/maitreyee.talnikar">
+                            <i class="fa fa-facebook"></i>
+                        </a> -->
+                    </li>
+                    <li class="list-inline-item">
+                        <!-- <a href="tel:+7259750449">
+                            <i class="fa fa-phone"></i>
+                        </a> -->
+                    </li>
+                    <li class="list-inline-item">
+                        <!-- <a href="https://www.behance.net/maitreyeet0781">
+                            <i class="fa fa-behance"></i>
+                        </a> -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+
+        <div class="col-lg-12 text-center">
+            <h3 class="team-subheading">Logistics</h3>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive  .jpg" class="team-image rounded-circle" alt="">
+                <h3 class="team-name">Pranav Jadhav</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Pranav Jadhav Logistics Mentor.jpg" alt=""class="rounded-circle team-image" style="height: 250px;">
+                    </div>
+                <p class="text-muted">Mentor</p>
+                <ul class="list-inline social-buttons">
+                    <!-- <li class="list-inline-item">
+                        <a href="https://www.facebook.com/maitreyee.talnikar">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+7259750449">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.behance.net/maitreyeet0781">
+                            <i class="fa fa-behance"></i>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Arrpiit Bissaria</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Arrpiit Bissaria Logistics Executive.jpg" alt=""class="rounded-circle team-image" style="height: 250px;">
+                    </div>
+                <p class="text-muted">Executive - Logistics</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/arpit.bisaria.9">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+7997000291">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Deep Shah</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Deep Shah Logistics Executive.jpeg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Executive - Logistics</p>
+                <ul class="list-inline social-buttons">
+                    <!-- <li class="list-inline-item">
+                        <a href="https://www.facebook.com/arpit.bisaria.9">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+7997000291">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Krishna Sai Marella</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Kishna Sai Marella Logistics Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Executive - Logistics</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/marellahari.krishnasai">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+9676636889">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Sumedha Reddy</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Sumedha Reddy Logistics Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Executive - Logistics</p>
+                <ul class="list-inline social-buttons">
+                    <!-- <li class="list-inline-item">
+                        <a href="https://www.facebook.com/marellahari.krishnasai">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li> -->
+                    <li class="list-inline-item">
+                        <a href="tel:+9441363744">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Tanoosh Choudary</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Tanoosh Choudary Logistics Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Executive - Logistics</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/tanoosh.choudary">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+7093336496">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Yatharth Singhal</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Yatharth Singhal Logistics Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Executive - Logistics</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/yatharth.singhal.50">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+9460456789">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-lg-12 text-center">
+            <h3 class="team-subheading">Publicity</h3>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Sarash Agarwal</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Saransh Agarwal Offline Publicity Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Offline Publicity Executive</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/saranshagarwal0407">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+9748153514">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Sarthak Das</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Sarthak Das Online Publicity Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Online Publicity Executive</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/sarthakdas042">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+9674389507">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Aditya Ramaswami</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Aditya Ramaswami Sponsoship Mentor.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Mentor</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/aditya.ramaswami">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+8465927967">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-12 text-center">
+            <h3 class="team-subheading">Sponsorship</h3>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Arjun Lokireddy</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Arjun Lokireddy Sponsorship Mentor.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Mentor</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/Arjunlokireddy">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+8106877005">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="team-member">
+                <h3 class="team-name">Siddharth Ratnam</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Siddharth Ratnam Sponsoship Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Executive</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/siddharth.ratnam.1">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+7981580002">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div class="col-md-4 col-sm-12">
+         <div class="team-member">
+                <h3 class="team-name">Meghana Chowdary</h3>
+                <div>
+                        <img src="assets/img/PHOTOS FOR WEBSITE/Meghana Chowdary Sponsorship Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+                </div>
+                <p class="text-muted">Executive</p>
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="https://m.facebook.com/meghana.vunnam">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="tel:+9441695734">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="col-lg-12 text-center">
+        <h3 class="team-subheading">Vfx</h3>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4 col-sm-12">
+        <div class="team-member">
+               <h3 class="team-name">Meher Gajula</h3>
+               <div>
+                       <img src="assets/img/PHOTOS FOR WEBSITE/Meher Gajula VFX Executive.jpg" alt="" class="rounded-circle team-image" style="height: 250px;">
+               </div>
+               <p class="text-muted">Executive</p>
+               <ul class="list-inline social-buttons">
+                   <li class="list-inline-item">
+                       <a href="https://www.facebook.com/MeherGajula">
+                           <i class="fa fa-facebook"></i>
+                       </a>
+                   </li>
+                   <li class="list-inline-item">
+                       <a href="tel:+9492939515">
+                           <i class="fa fa-phone"></i>
+                       </a>
+                   </li>
+               </ul>
+           </div>
+   </div>
+   <div class="col-md-4"></div>
+    </div>
+</div>
 
     <!--footer end -->
 
