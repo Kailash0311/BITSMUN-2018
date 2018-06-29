@@ -9,18 +9,20 @@
     <meta name="apple-mobile-web-app-capable" content="yes" /> -->
     <!-- ========== Title ========== -->
     <title> BITSMUN-2018</title>
-
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="assets/js/float-panel/float-panel.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
     <link rel="shortcut icon" type="image/icon" href="assets/img/favicon.ico">
 
     <!-- ========== STYLESHEETS ========== -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
+    
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Fonts Icon CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -56,46 +58,46 @@
     </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="loader">
         <div class="loader-outter"></div>
         <div class="loader-inner"></div>
     </div>
 
     <!--header start here -->
-    <header class="header navbar fixed-top navbar-expand-md">
+    <header class="header navbar  fixed-top navbar-expand-md">
         <div class="container">
-            <a class="navbar-brand logo" href="#">
+            <a class="navbar-brand logo" href="#header">
                 <span style="font-family: 'Fredericka the Great', cursive; color: white"><big>BITSMUN HYDERABAD</big> </span>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="lnr lnr-text-align-right"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+                <i class="material-icons navbar-toggler" data-toggle="collapse" data-target="#headernav"aria-expanded="false" aria-label="Toggle navigation" style="border: none; margin-right: 20%;"></i>
             </button>
-            <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
-                <ul class=" nav navbar-nav menu">
+            <div class="collapse navbar-collapse ml100" id="headernav">
+                <ul class=" nav navbar-nav menu ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#letter">LETTER</a>
+                        <a class="nav-link" href="#letter" id="letter-click">LETTER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">COMMITTEES</a>
+                        <a class="nav-link" href="#committees">COMMITTEES</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="ministries.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">APPLICATIONS</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
                             <a class="dropdown-item" href="https://docs.google.com/forms/u/2/d/e/1FAIpQLScJrP0AGED5x2y7NO03G4OZu5kKH39elrKjDJkcKx5Cubce3A/formResponse">Executive Board</a>
                             <a class="dropdown-item" href="https://docs.google.com/forms/u/2/d/e/1FAIpQLSd29cuyDY9fXEi1UO6RuGafKKHNGInH4eGfGxAaJREcjjILbg/formResponse">International Press Head</a>
-                            <a class="dropdown-item" href="#">International Press Member</a>
-                            <a class="dropdown-item" href="#">Delegation</a>
+                            <!-- <a class="dropdown-item" href="#">International Press Member</a>
+                            <a class="dropdown-item" href="#">Delegation</a> -->
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="team1.html">TEAM</a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link " href="#sponsors">SPONSORS</a>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link " href="#">SPONSORS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#"> CONTACT
+                        <a class="nav-link " href="#contact"> CONTACT
                         </a>
                     </li>
                 </ul>
@@ -186,7 +188,7 @@
     <section class="pt100 pb100" id="letter">
         <div class="container">
             <div class="section_title" >
-                <h3 class="letter-title" >
+                <h3 class="letter-title slideanim" >
                     LETTER FROM THE SECRETARY GENERAL
                 </h3>
             </div>
@@ -229,7 +231,7 @@
     <!--about the event end -->
     <!-- committees start  -->
     <!-- Website only Visible greater than 1300px :D -->
-    <div class="pt20 pb20 website-only-visible" style="background-color: #1F1F1F; overflow:auto;display: block;">
+    <div class="pt20 pb20 website-only-visible" style="background-color: #1F1F1F; overflow:auto;display: block;" id="committees">
         <div class="w3-content w3-display-container" style="max-width: none; margin: 20px;display: block;">
             <div class="mySlides" style="width:100%;">
                 <div class="section_title committee-header">
@@ -243,9 +245,9 @@
                     <div class="row">
                         <div class="col-md-7 col-xs-12 col-sm-12"></div>
                         <div class="col-md-5 col-xs-12 col-sm-12 center-block">
-                            <img src="assets/img/brands/b13.png" style="height: 100px; float: left; display: block" alt="">
+                            <img src="assets/img/brands/b13.png" style="height: 100px; float: left; display: block" alt="" class="slideanim">
                             <div class="center-block color-light float-left">
-                                <h5 class="color-light" ><br> &nbsp United Nations General Assembly</h5>
+                                <h5 class="color-light text-uppercase"><br> &nbsp United Nations General Assembly</h5>
                             </div>
                         </div>
                     </div>
@@ -253,20 +255,48 @@
 
 
                 <div class="row">
-                    <div class="col-md-7 col-xs-12 col-sm-12" style="display: block">
+                    <div class="col-md-7 col-xs-12 col-sm-12 text-uppercase" style="display: block;">
                         <div class="row">
-                            <div class="col-md-3 center-block">
-                                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
-                                <h7 class="color-light">Nishant Aggarwal</h7><br>
-                                <h7 class="color-light">WEB DEV EXECUTIVE</h7>
+                            <div class="col-md-3 center-block text-center">
+                                <img src="assets/img/Team Photos/Kshitij Jain Director UNGA.jpg" alt="" class="rounded-circle" style="height:250px; display: block; min-width: 250px;"><br>
+                                
+                                <h7 class="color-light ml300">Kshitij Jain</h7><br>
+                                <h7 class="color-light">Director</h7>
+                                <hr>
+                                <ul class="list-inline social-buttons">
+                                        <li class="list-inline-item">
+                                            <a href="https://www.facebook.com/kshitiz.jain.188">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="tel:+7997000408">
+                                                <i class="fa fa-phone"></i>
+                                            </a>
+                                        </li>
+                                </ul>
                             </div>
-                            <div class="col-md-3 center-block">
-                                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
-                                <h7 class="color-light">Nishant Aggarwal</h7><br>
-                                <h7 class="color-light">WEB DEV EXECUTIVE</h7>
+                            <div class="col-md-3 center-block text-center">
+                                <img src="assets/img/PHOTOS FOR WEBSITE/Tejas Vaid Director GA.jpg" alt="" class="rounded-circle" style="height:250px; display: block; min-width: 250px;"><br>
+                                <h7 class="color-light">Tejas Vaid</h7><br>
+                                <h7 class="color-light">Director</h7>
+                            
+                                <hr>
+                                <ul class="list-inline social-buttons">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com/tejas.vaid.7">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="tel:+9663273399">
+                                            <i class="fa fa-phone"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-md-3 center-block pt50 pb100">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
@@ -277,17 +307,26 @@
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
                             </div>
-                        </div>                        
+                        </div>        -->
+                                  
+                        <!-- <div class="row">
+                            <div class="col-md-3 center-block">
+                                    <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
+                                    <h7 class="color-light">Nishant Aggarwal</h7><br>
+                                    <h7 class="color-light">WEB DEV EXECUTIVE</h7>
+                            </div>
+                        </div> -->
                     </div>
 
 
-                    <div class="col-md-5 col-xs-12 col-sm-12 letter-para-text text-white text-uppercase d-sm-inline pl0 pr80">
-                        <br><br>The United Nations General Assembly (UNGA) is the largest congregation of nations that recommends legal, political, economic,
-                        social and humanitarian efforts that help save lives of millions across the world, where each country
+                    <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-uppercase text-white d-sm-inline pl0 pr80 pt0">
+                        The United Nations General Assembly (UNGA) is the largest congregation of nations that<strong> recommends legal, political, economic,
+                        social and humanitarian efforts that help save lives of millions across the world</strong>, where each country
                         has an equal voice and vote regardless of the agenda. Witness and be a part of the passionate speeches,
                         the delirious negotiations, the blood boiling breaks and nail-biting voting sessions. Test your prowess
                         and speak your heart out as you try to find a middle ground with your rivals using your negotiation
-                        and persuasion skills. Watch it all unfurl at UNGA of BITSMUN ’18.
+                        and persuasion skills. <strong>Watch it all unfurl at UNGA of BITSMUN ’18.</strong>
+                        <br><br><br><br>
                     </div>
                 </div>
             </div>
@@ -303,9 +342,9 @@
                     <div class="row">
                         <div class="col-md-7 col-xs-12 col-sm-12"></div>
                         <div class="col-md-5 col-xs-12 col-sm-12 center-block">
-                            <img src="assets/img/brands/b12.png" style="height: 100px; float: left; display: block" alt="">
+                            <img src="assets/img/brands/b12.png" style="height: 100px; float: left; display: block" alt="" class="slideanim">
                             <div class="center-block color-light float-left" style="vertical-align: text-bottom"><br>
-                                <h5 class="color-light" >SAARC</h5>
+                                <h5 class="color-light text-uppercase" >SAARC</h5>
                             </div>
                         </div>
                     </div>
@@ -315,18 +354,34 @@
                 <div class="row">
                     <div class="col-md-7 col-xs-12 col-sm-12" style="display: block">
                         <div class="row">
-                            <div class="col-md-3 center-block">
+                            <div class="col-md-3 center-block text-center text-uppercase">
+                                <!-- <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
+                                <h7 class="color-light">Nishant Aggarwal</h7><br>
+                                <h7 class="color-light">WEB DEV EXECUTIVE</h7> -->
+                                <img src="assets/img/Team Photos/Rohit Dwivedula SAARC Director.jpg" alt="" class="rounded-circle" style="height:250px; display: block;"><br>
+                                <h7 class="color-light">Rohit Dwivedula</h7><br>
+                                <h7 class="color-light">Director</h7>
+                                <hr>
+                                <ul class="list-inline social-buttons">
+                                        <li class="list-inline-item">
+                                            <a href="https://m.facebook.com/RohitDwivedula">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="tel:+7989669885">
+                                                <i class="fa fa-phone"></i>
+                                            </a>
+                                        </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="col-md-3 center-block">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
-                            </div>
-                            <div class="col-md-3 center-block">
-                                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
-                                <h7 class="color-light">Nishant Aggarwal</h7><br>
-                                <h7 class="color-light">WEB DEV EXECUTIVE</h7>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-md-3 center-block pt50 pb100">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
@@ -337,13 +392,13 @@
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
                             </div>
-                        </div>                        
+                        </div>  -->
                     </div>
-                    <div class="col-md-5 col-xs-12 col-sm-12 letter-para-text text-white text-uppercase d-sm-inline pl0 pr80"><br><br>
-                        SAARC, the South Asian Association for Regional Cooperation, was founded with lofty goals to “promote the welfare of the people of South Asia” and to “strengthen collective self-reliance among the countries of South Asia” promoting active collaboration and mutual assistance in the economic, social, cultural, technical and scientific fields. 
+                    <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-white text-uppercase d-sm-inline pl0 pr80 mb50">
+                        <strong>SAARC, the South Asian Association for Regional Cooperation, was founded with lofty goals to “promote the welfare of the people of South Asia” and to “strengthen collective self-reliance among the countries of South Asia”</strong> promoting active collaboration and mutual assistance in the economic, social, cultural, technical and scientific fields. 
 
                         Test your skills as you try to find common ground with bitter enemies and neighbors to come to a mutually beneficial consensus. 
-                        This BITSMUN ’18, can you maintain the balance between political, religious, and economic interests of your country and tackle the increasing political tension?
+                        <strong>This BITSMUN ’18, can you maintain the balance between political, religious, and economic interests of your country and tackle the increasing political tension? </strong>
                     </div>
                 </div>
             </div>
@@ -359,9 +414,9 @@
                     <div class="row">
                         <div class="col-md-7 col-xs-12 col-sm-12"></div>
                         <div class="col-md-5 col-xs-12 col-sm-12 center-block">
-                            <img src="assets/img/brands/b11.png" style="height: 100px; float: left; display: block" alt="">
+                            <img src="assets/img/brands/b11.png" style="height: 100px; float: left; display: block" alt="" class="slideanim">
                             <div class="center-block color-light float-left" style="vertical-align: text-bottom"><br>
-                                <h5 class="color-light" >United Nations Security Council</h5>
+                                <h5 class="color-light text-uppercase">United Nations Security Council</h5>
                             </div>
                         </div>
                     </div>
@@ -369,20 +424,36 @@
 
 
                 <div class="row">
-                    <div class="col-md-7 col-xs-12 col-sm-12" style="display: block">
+                    <div class="col-md-7 col-xs-12 col-sm-12 mb50 text-uppercase" style="display: block">
                         <div class="row">
-                            <div class="col-md-3 center-block">
+                            <div class="col-md-3 center-block text-center">
+                                <!-- <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
+                                <h7 class="color-light">Nishant Aggarwal</h7><br>
+                                <h7 class="color-light">WEB DEV EXECUTIVE</h7> -->
+                                <img src="assets/img/Team Photos/Dev Gupta Director Security Council.jpg" alt="" class="rounded-circle" style="height:250px; display: block;"><br>
+                                <h7 class="color-light">Dev Gupta</h7><br>
+                                <h7 class="color-light">Director</h7>
+                                <hr>
+                                <ul class="list-inline social-buttons">
+                                        <li class="list-inline-item">
+                                            <a href="https://m.facebook.com/RohitDwivedula">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="tel:+7989669885">
+                                                <i class="fa fa-phone"></i>
+                                            </a>
+                                        </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="col-md-3 center-block">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
-                            </div>
-                            <div class="col-md-3 center-block">
-                                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
-                                <h7 class="color-light">Nishant Aggarwal</h7><br>
-                                <h7 class="color-light">WEB DEV EXECUTIVE</h7>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-md-3 center-block pt50 pb100">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
@@ -393,12 +464,12 @@
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
                             </div>
-                        </div>                        
+                        </div>                         -->
                     </div>
-                    <div class="col-md-5 col-xs-12 col-sm-12 letter-para-text text-white text-uppercase d-sm-inline pl0 pr80"><br><br>
-                        "War is organized murder and nothing else"
+                    <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-white text-uppercase d-sm-inline pl0 pr80 mb50">
+                       <strong> "War is organized murder and nothing else" </strong> <br> 
                         Presenting to you, the United Nations Security Council. The committee at the center of all the action, often holding the match to the fuse. UNSC is the only committee in the United Nations with the ability to make resolutions binding on all member nations. It has played an important role over the past few years in maintaining peace and security in the international community. 
-                        If you're the kind of delegate that wants to get past the diplomatic posturing and take actions with immediate consequences, UNSC at BITSMUN Hyderabad is the place to be.
+                        <strong>If you're the kind of delegate that wants to get past the diplomatic posturing and take actions with immediate consequences, UNSC at BITSMUN Hyderabad is the place to be.</strong>
                     </div>
                 </div>
             </div>
@@ -415,9 +486,9 @@
                     <div class="row">
                         <div class="col-md-7 col-xs-12 col-sm-12"></div>
                         <div class="col-md-5 col-xs-12 col-sm-12 center-block">
-                            <img src="assets/img/brands/b14.png" style="height: 100px; float: left; display: block" alt="">
+                            <img src="assets/img/brands/b14.png" style="height: 100px; float: left; display: block" alt="" class="slideanim">
                             <div class="center-block color-light float-left" style="vertical-align: text-bottom"><br>
-                                <h5 class="color-light" >Joint Crisis Committee</h5>
+                                <h5 class="color-light text-uppercase">Joint Crisis Committee</h5>
                             </div>
                         </div>
                     </div>
@@ -427,18 +498,31 @@
                 <div class="row">
                     <div class="col-md-7 col-xs-12 col-sm-12" style="display: block">
                         <div class="row">
-                            <div class="col-md-3 center-block">
+                            <div class="col-md-3 center-block text-center text-uppercase">
+                                <img src="assets/img/Team Photos/Shaaban Karim Director Continous Crisis Committee.jpg" alt="" class="rounded-circle" style="height:250px; display: block;"><br>
+                                <h7 class="color-light">Shaaban Karim</h7><br>
+                                <h7 class="color-light">Director</h7>
+                                <hr>
+                                <ul class="list-inline social-buttons">
+                                        <li class="list-inline-item">
+                                            <a href="https://m.facebook.com/RohitDwivedula">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="tel:+7989669885">
+                                                <i class="fa fa-phone"></i>
+                                            </a>
+                                        </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="col-md-3 center-block">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
-                            </div>
-                            <div class="col-md-3 center-block">
-                                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
-                                <h7 class="color-light">Nishant Aggarwal</h7><br>
-                                <h7 class="color-light">WEB DEV EXECUTIVE</h7>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-md-3 center-block pt50 pb100">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
@@ -449,12 +533,12 @@
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
                             </div>
-                        </div>                        
+                        </div>                         -->
                     </div>
-                    <div class="col-md-5 col-xs-12 col-sm-12 letter-para-text text-white text-uppercase d-sm-inline pl0 pr80"><br><br>
-                        The stakes have never been higher. A catastrophic event. A world leader is shot dead. Chances of nuclear war? Anything can happen.
+                    <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-white text-uppercase d-sm-inline pl0 pr80 mb50">
+                        <strong>The stakes have never been higher. A catastrophic event. A world leader is shot dead. Chances of nuclear war? Anything can happen. </strong>
                         Or what if we could go back in time? Learn from our mistakes and change the course history. Play different roles and do things differently. 
-                        If fast paced and action packed committees are for you, BITSMUN Hyderabad is the place to be. Introducing the Joint Crisis Committee where the opportunities are truly limitless.
+                        If fast paced and action packed committees are for you, BITSMUN Hyderabad is the place to be.<strong>Introducing the Joint Crisis Committee where the opportunities are truly limitless.</strong>
                     </div>
                 </div>
             </div> 
@@ -471,9 +555,9 @@
                     <div class="row">
                         <div class="col-md-7 col-xs-12 col-sm-12"></div>
                         <div class="col-md-5 col-xs-12 col-sm-12 center-block">
-                            <img src="assets/img/brands/b15.png" style="height: 100px; float: left; display: block" alt="">
+                            <img src="assets/img/brands/b15.png" style="height: 100px; float: left; display: block" alt="" class="slideanim">
                             <div class="center-block color-light float-left" style="vertical-align: text-bottom"><br>
-                                <h5 class="color-light" >Human Rights Council</h5>
+                                <h5 class="color-light text-uppercase">Human Rights Council</h5>
                             </div>
                         </div>
                     </div>
@@ -483,18 +567,49 @@
                 <div class="row">
                     <div class="col-md-7 col-xs-12 col-sm-12" style="display: block">
                         <div class="row">
-                            <div class="col-md-3 center-block">
-                                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
-                                <h7 class="color-light">Nishant Aggarwal</h7><br>
-                                <h7 class="color-light">WEB DEV EXECUTIVE</h7>
+                            <div class="col-md-3 center-block text-center text-uppercase">
+                                <img src="assets/img/PHOTOS FOR WEBSITE/Rishabh Shrimal HRC Director.jpg" alt="" class="rounded-circle" style="height:250px; display: block;"><br>
+                                <h7 class="color-light">Rishabh Shrimal</h7><br>
+                                <h7 class="color-light">Director</h7>
+                                <hr>
+                                <ul class="list-inline social-buttons">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com/rishabh.shrimal.716">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="tel:+9300383939">
+                                            <i class="fa fa-phone"></i>
+                                        </a>
+                                    </li>
+                            </ul>
                             </div>
-                            <div class="col-md-3 center-block">
-                                <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
-                                <h7 class="color-light">Nishant Aggarwal</h7><br>
-                                <h7 class="color-light">WEB DEV EXECUTIVE</h7>
+                            <div class="col-md-3 center-block text-center text-uppercase">
+                                <img src="assets/img/Team Photos/Sonakshi Gupta Director HRC.jpg" alt="" class="rounded-circle ml20" style="height:250px; display: block;"><br>
+                                <h7 class="color-light mb50 ml0">Sonakshi Gupta</h7><br>
+                                <h7 class="color-light mb50 ">Director</h7>
+                                <!-- <hr> -->
+                                
+                                <!-- Details are not available -->
+
+                                    <!-- <ul class="list-inline social-buttons">
+                                    <li class="list-inline-item">
+                                        <a href="https://m.facebook.com/RohitDwivedula">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="tel:+7989669885">
+                                            <i class="fa fa-phone"></i>
+                                        </a>
+                                    </li> 
+                               
+                                </ul> -->
                             </div>
                         </div>
-                        <div class="row">
+                        <!-- 
+                            <div class="row">
                             <div class="col-md-3 center-block pt50 pb100">
                                 <img src="assets/img/Team Photos/NIshant Aggarwal Web Development Executive.jpg" alt="" class="rounded-circle" style="height:150px; display: block;"><br>
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
@@ -505,11 +620,12 @@
                                 <h7 class="color-light">Nishant Aggarwal</h7><br>
                                 <h7 class="color-light">WEB DEV EXECUTIVE</h7>
                             </div>
-                        </div>                        
+                        </div>                         -->
                     </div>
-                    <div class="col-md-5 col-xs-12 col-sm-12 letter-para-text text-white text-uppercase d-sm-inline pl0 pr80"><br><br>
-                        There can be no peace without development, no development without peace and no lasting peace or sustainable development without respect for human rights and the rule of law. These rights are for all of us. Whoever we are and wherever we are from; no matter our class, our opinions, our sexual orientation.
-                        When the rights of one are threatened, the rights of all are diminished. Our support goes to those in the constant struggle to gain these rights or keep them. Our strength is our unity. Unity is our purpose. Unite, uphold and strengthen the importance of securing human rights for all people at BITSMUN'18.
+                    <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-white text-uppercase d-sm-inline pl0 pr80 mb50">
+                        <strong>There can be no peace without development, no development without peace and no lasting peace or sustainable development without respect for human rights and the rule of law.</strong> These rights are for all of us. Whoever we are and wherever we are from; no matter our class, our opinions, our sexual orientation.
+                        When the rights of one are threatened, the rights of all are diminished. Our support goes to those in the constant struggle to gain these rights or keep them. 
+                        <strong>Our strength is our unity. Unity is our purpose. Unite, uphold and strengthen the importance of securing human rights for all people at BITSMUN'18. </strong>
                     </div>
                 </div>
             </div>                       
@@ -545,8 +661,8 @@
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"         data-parent="#accordion1">
                         <div class="card-body color-black">
 
-                            The United Nations General Assembly (UNGA) is the largest congregation of nations that recommends legal, political, economic,
-                            social and humanitarian efforts that help save lives of millions across the world, where each
+                            The United Nations General Assembly (UNGA) is the largest congregation of nations that <span style="color: blueviolet">recommends legal, political, economic,
+                            social and humanitarian efforts that help save lives of millions across the world</span>, where each
                             country has an equal voice and vote regardless of the agenda. Witness and be a part of the       passionate 
                             speeches, the delirious negotiations, the blood boiling breaks and nail-biting voting sessions.
                             Test your prowess and speak your heart out as you try to find a middle ground with your rivals
@@ -719,10 +835,10 @@
     <!-- committees end -->
 
     <!--contact us section -->
-    <section class="bg-img pt20 pb50" style="background-image: url(assets/img/bg/contact-us.jpg);">
+    <section class="bg-img pt20 pb50" style="background-image: url(assets/img/bg/contact-us.jpg);" id="contact">
         <div class="container">
             <div class="section_title mb30">
-                <h3 class="title color-dark text-center">
+                <h3 class="title color-dark text-center slideanim">
                     Contact us
                 </h3>
             </div>
@@ -736,7 +852,7 @@
                     <a href="https://www.google.com/maps/place/Birla+Institute+of+Technology+and+Science/@17.5448401,78.5696728,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb835ea819f7f7:0xf65eaaa5a110605f!8m2!3d17.544835!4d78.5718615">
                         <div class="row">
                             <div class="col-md-1 pt5 pb5">
-                                <img src="./assets/img/location-512.png" height="25" width="25">
+                                <img src="./assets/img/Location-512.png" height="25" width="25">
                             </div>
                             <div class="col-md-6 pt5 pb5 color-dark">
                                 <strong>BITS PILANI, HYDERABAD CAMPUS</strong>
@@ -781,8 +897,8 @@
 						    ></textarea>
 						    <label class="mdl-textfield__label" for="sample5">WRITE YOUR QUERY HERE...</label>
 						 </div>
-						<div class="row" style="">
-	                    <input value="Submit" class="btn btn-primary btn-rounded mt30" type="submit">
+						<div class="row justify-content-sm-center justify-content-md-start">
+	                        <input value="Submit" class="btn btn-primary btn-rounded mt30" type="submit">
 	                	</div>
 	                </form>	
         
@@ -790,21 +906,16 @@
             </div>
         </div>
     </section>
-
     <!--footer start -->
     <footer>
         <div class="container pt0 pb0">
             <div class="row justify-content-center pt0 pb0">
 
                 <div class="col-md-4 col-12 pt0 pb0">
-                    <div class="footer_box">
+                    <div class="footer_box text-center">
                         <div class="footer_box_body">
-                            <ul class="footer_social">
-                                <li>
-                                    <a href="https://github.com/Kailash0311/BITSMUN-2018">
-                                        <i class="ion-social-github"></i>
-                                    </a>
-                                </li>
+                            <ul class="footer_social slideanim">
+                                
                                 <li>
                                     <a href="https://www.facebook.com/bitsmun.hyd">
                                         <i class="ion-social-facebook"></i>

@@ -21,8 +21,24 @@
 'use strict';
 $(window).load(function() {
     $('.loader').delay(500).fadeOut('slow');
+    
+    
 });
 
+$('.team-image').addClass('slideanim')
+$('.team-name').addClass('slideanim')
+$('.list-inline.social-buttons').addClass('slideanim')
+$('.text-muted').addClass('slideanim')
+$('.counter').addClass('slideanim')
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
 
 $(document).ready(function() {
 
@@ -93,6 +109,10 @@ setInterval(function() { makeTimer(); }, 1000);
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         dotsContainer: '.cover_dots'
+    });
+
+    $(document).ready(function() {
+        $(".dropdown-toggle").dropdown();
     });
 
     $(".brand_carousel").owlCarousel({
