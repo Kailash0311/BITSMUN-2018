@@ -1,17 +1,3 @@
-/*
- * Evento -  Event html  Template
- * Build Date: jan 2018
- * Author: colorlib
- * Copyright (C) 2018 colorlib
- */
- /* ------------------------------------- */
-/*  TABLE OF CONTENTS
- /* ------------------------------------- */
-/*   PRE LOADING                          */
-/*   WOW                                 */
-/*   sliders                      */
-/*    MAPS                               */
-/*   COUNTER JS              */
 
 
 
@@ -40,6 +26,9 @@ $('a[href^="#"]').on('click', function(event) {
     }
 });
 
+$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
 $(document).ready(function() {
 
     'use strict';
@@ -109,10 +98,6 @@ setInterval(function() { makeTimer(); }, 1000);
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         dotsContainer: '.cover_dots'
-    });
-
-    $(document).ready(function() {
-        $(".dropdown-toggle").dropdown();
     });
 
     $(".brand_carousel").owlCarousel({

@@ -29,11 +29,40 @@
     height: 150px !important;
   }
 }
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.exec-board{
+  color: white !important;
+ 
+  padding: 1em;
+
+}
+.exec-board:hover{
+text-decoration:underline !important;
+}
+
 
 .navbar-heading{
   color: white;
-  font-size: 24px;
+  font-size: 14px;
   font-family: 'Crimson Text', serif;
+  margin-left:50px;
 }
 .visible-on-hover{
   visibility: hidden;
@@ -269,7 +298,6 @@ a {
 a:hover,
 a:focus,
 a:active {
-  text-decoration: none;
   outline: none;
   color: #838383;
   -webkit-transition: all 0.4s ease-in-out;
@@ -331,6 +359,11 @@ ul.nosyely_list {
   text-align: center;
   line-height: 1.2;
 }
+.committee-para-text-mobile{
+  font-size:14px;
+  color: #303030;
+  font-weight: 300;
+}
 
 .countdown div span {
   display: block;
@@ -360,8 +393,9 @@ ul.nosyely_list {
 }
 .letter-para-heading{
   font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #000;
+  font-family: 'Crimson Text', serif;
+  color: #303030;
+ font-weight: 700;
   font-style: normal;
 }
 #days {
