@@ -54,8 +54,10 @@ $(document).ready(function() {
     $(window).on('scroll', function () {
         if ($(window).scrollTop() < 100) {
             $('.header').removeClass('sticky_header');
+            $('.navbar-heading').addClass('d-none');
         } else {
             $('.header').addClass('sticky_header');
+            $('.navbar-heading').removeClass('d-none');
         }
     });
    // Counter JS starts
@@ -87,7 +89,7 @@ $(document).ready(function() {
 
 setInterval(function() { makeTimer(); }, 1000);
     //Counter JS ends 
-    
+
     (function(){    
         var link = document.getElementById("committee-nav");    
         function checkWidth() {
