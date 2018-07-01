@@ -26,6 +26,10 @@ $('a[href^="#"]').on('click', function(event) {
     }
 });
 
+$(document).ready(function(){
+    
+})
+
 $(document).ready(function() {
     $(".dropdown-toggle").dropdown();
 });
@@ -78,11 +82,27 @@ $(document).ready(function() {
         $("#hours").html(hours+"<small><small><small> H</small></small></small>");
         $("#minutes").html(minutes+"<small><small><small> M</small></small></small>");
         $("#seconds").html(seconds+"<small><small><small> S</small></small></small>");		
-
+        
 }
 
 setInterval(function() { makeTimer(); }, 1000);
     //Counter JS ends 
+    
+    (function(){    
+        var link = document.getElementById("committee-nav");    
+        function checkWidth() {
+            var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth,
+                newHref;
+            if (width<1300) {
+              newHref="#committee-mobile";
+            } else {
+              newHref="#committees";
+            } 
+           link.href=newHref;       
+        }
+        link.onclick = checkWidth;
+        checkWidth();
+    })();
 
     /* ==============================================
      SLIDER
