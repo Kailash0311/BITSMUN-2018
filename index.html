@@ -1,1107 +1,2227 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+
+
 <head>
+
     <!-- ========== Meta Tags ========== -->
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <!-- <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+
     <meta name="apple-mobile-web-app-capable" content="yes" /> -->
+
+    <meta property="og:image" content="assets/img/preview.png" />
+    <meta property="og:title" content="BITSMUN HYDERABAD'18"/>
+
     <!-- ========== Title ========== -->
-    <title> BITSMUN-2018</title>
+
+    <title>BITSMUN-2018</title>
+
     <script src="assets/js/float-panel/float-panel.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
-    <link rel="shortcut icon" type="image/icon" href="assets/img/favicon.ico">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
 
     <!-- ========== STYLESHEETS ========== -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/scrollTojQuery/lib/jquery-scrollto.js"></script>
+
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
     <!-- Bootstrap CSS -->
+
     <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
     <script src="assets/js/bootstrap.min.js"></script> -->
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <!-- Fonts Icon CSS -->
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
     <link href="assets/css/et-line.css" rel="stylesheet">
+
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
+
     <!-- Carousel CSS -->
+
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+
     <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+
     <!-- Animate CSS -->
+
     <link rel="stylesheet" href="assets/css/animate.min.css">
+
     <!-- Custom styles for this template -->
+
     <link href="assets/css/main.css" rel="stylesheet">
+
     <style>
+
         .mySlides {
+
             display: none;
+
             padding: 2px;
+
         }
+
+
 
         .w3-left,
+
         .w3-right,
-        .w3-badge {
-            cursor: pointer
-        }
 
         .w3-badge {
-            height: 13px;
-            width: 13px;
-            padding: 0
+
+            cursor: pointer
+
         }
+
+
+
+        .w3-badge {
+
+            height: 13px;
+
+            width: 13px;
+
+            padding: 0
+
+        }
+
+	.bottom-right{
+ 	 position: absolute;
+  	 bottom: 8px;
+ 	 right: 16px;
+ 	 size: 16px;
+	}
+
     </style>
+
 </head>
 
+
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
     <div class="loader">
+	<div class="loader bg-gray">
+        	<div class="loader-outter">
+            		<div class="text-center" style="font-size: 50px; margin-top: 150px; color: black;">
+                	BITSMUN'18
+            		</div>
+        	</div>
+
+        	<div class="loader-inner"></div>
+  	</div>
+
         <div class="loader-outter"></div>
+
         <div class="loader-inner"></div>
+
     </div>
 
+
+
     <!--header start here -->
+
     <header class="header navbar  fixed-top navbar-expand-md">
+
         <div class="container">
+
             <a class="navbar-brand logo" href="#header">
-                <span class="navbar-heading">
+
+                <span class="navbar-heading" style="font-family: 'Merriweather', serif;">
+
                     <big>BITSMUN HYDERABAD</big>
+
                 </span>
+
             </a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation"
+
                 style="border: none;">
+
                 <i class="material-icons navbar-toggler" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation"
+
                     style="border: none; margin-right: 20%;"></i>
+
             </button>
+
             <div class="collapse navbar-collapse ml100" id="headernav">
+
                 <ul class=" nav navbar-nav menu ml-auto">
+
                     <li class="nav-item">
+
                         <a class="nav-link" href="#letter" id="letter-click" data-toggle="collapse" data-target="#headernav">LETTER</a>
+
                     </li>
+
                     <li class="nav-item">
+
                         <a class="nav-link" href="#committees" data-toggle="collapse" data-target="#headernav" id="committee-nav">COMMITTEES</a>
+
                     </li>
+
                     <li class="nav-item dropdown">
+
                         <a class="nav-link dropdown-toggle" href="ministries.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">APPLICATIONS</a>
+
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
+
                             <a class="dropdown-item" href="https://docs.google.com/forms/u/2/d/e/1FAIpQLScJrP0AGED5x2y7NO03G4OZu5kKH39elrKjDJkcKx5Cubce3A/formResponse">Executive Board</a>
+
                             <a class="dropdown-item" href="https://docs.google.com/forms/u/2/d/e/1FAIpQLSd29cuyDY9fXEi1UO6RuGafKKHNGInH4eGfGxAaJREcjjILbg/formResponse">International Press Head</a>
+
                             <!-- <a class="dropdown-item" href="#">International Press Member</a>
+
                             <a class="dropdown-item" href="#">Delegation</a> -->
+
                         </div>
+
                     </li>
+
                     <li class="nav-item">
+
                         <a class="nav-link " href="team.html">TEAM</a>
+
                     </li>
+
                     <!-- <li class="nav-item">
+
                         <a class="nav-link " href="#sponsors">SPONSORS</a>
+
                     </li> -->
+
                     <li class="nav-item">
+
                         <a class="nav-link " href="#contact" data-toggle="collapse" data-target="#headernav"> CONTACT
+
                         </a>
+
                     </li>
+
                 </ul>
+
             </div>
+
         </div>
+
     </header>
+
     <!--header end here-->
 
+
+
     <!--cover section slider -->
+
     <section id="home" class="home-cover">
+
         <div class="cover_slider owl-carousel owl-theme">
+
             <div class="cover_item" style="background: url('assets/img/bg/slider.jpg');">
+                
+                <div class="bottom-right color-light"><strong>Pic Credits: Jayesh Sanwal</strong></div>
+
                 <div class="slider_content">
+
                     <div class="slider-content-inner">
+
                         <div class="container">
+
                             <div class="slider-content-left">
+
                                 <h2 class="cover-title">
+
                                     Prepare yourself for the
+
                                 </h2>
+
                                 <strong class="cover-xl-text">BITSMUN</strong>
+
                                 <p class="cover-date">
+
                                     26-28th October, BITS Pilani, Hyderabad Campus
+
                                 </p>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
             <div class="cover_item" style="background: url('assets/img/bg/slider1.png');">
+
                 <div class="slider_content">
+
                     <div class="slider-content-inner">
+
                         <div class="container">
+
                             <div class="slider-content-right">
+
                                 <h2 class="cover-title">
+
                                     Prepare yourself for the
+
                                 </h2>
+
                                 <strong class="cover-xl-text">BITSMUN</strong>
+
                                 <p class="cover-date">
+
                                     26-28th October, BITS Pilani, Hyderabad Campus
+
                                 </p>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
-        <div class="cover_nav">
+
+        <div class="cover_nav website-only-visible">
+
             <ul class="cover_dots">
+
                 <li class="active" data="0">
+
                     <span>1</span>
+
                 </li>
+
                 <li data="1">
+
                     <span>2</span>
+
                 </li>
-                <li data="2">
-                    <span>3</span>
-                </li>
+
             </ul>
+
         </div>
+
     </section>
+
     <!--cover section slider end -->
+
     <br>
+
     <br>
+
+
+
 
 
     <!--event countdown -->
+
     <section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/counter-bg.jpg');">
+
         <div class="overlay_dark"></div>
+
         <div class="container">
+
             <div class="row justify-content-center">
+
                 <div class="col-12 col-md-10">
+
                     <h2 class="mb30 text-center color-light" style="font-family: 'Berkshire Swash', cursive;">See you in... </h4>
+
                         <div id="timer" class="text-center">
+
                             <div class="counter" id="days"></div>
+
                             <div class="counter" id="hours"></div>
+
                             <div class="counter" id="minutes"></div>
+
                             <div class="counter" id="seconds"></div>
+
                         </div>
 
+
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
     <!--event count down end-->
 
 
+
+
+
     <!--about the event -->
+
     <section class="pt100 pb100" id="letter">
+
         <div class="container">
+
             <div class="section_title">
+
                 <h3 class="letter-title slideanim">
+
                     LETTER FROM THE SECRETARY GENERAL
+
                 </h3>
+
             </div>
+
             <div class="row justify-content-center">
+
                 <div class="col-12 col-md-12">
+
                     <br>
+
                     <br>
+
                     <p class="letter-para-heading">Honourable future delegates , esteemed colleagues and dear friends!</p>
 
 
 
 
+
+
+
+
+
                     <p class="letter-para-text">It is with great pleasure that I invite you to join us for the eighth edition of BITSMUN, organised by
+
                         BITS Pilani Hyderabad Campus. This year's conference will take place from 26th October-28th October.
+
                         </p>
+
+
 
                     <p class="letter-para-text">Since its inception, BITSMUN has sought to empower young minds from across the country. The conference
+
                         brings together determined delegates to discuss problems of international importance and more importantly,
+
                         brainstorm solutions for the future. Over the past eight years at BITSMUN Hyderabad, our focus has
+
                         always been in delivering quality debate, interesting committees and an experience worth remembering.
+
                         It is this legacy that we hope to carry forward in this edition as well.</p>
 
+
+
                     <p class="letter-para-text"> With a diverse set of committees, we expect delegates to foster key skills such as research, public speaking,
+
                         debate and negotiation.BITSMUN strives to inspire delegates to think critically about the world around
+
                         them and take action beyond the committee room.</p>
 
+
+
                     <p class="letter-para-text"> We also aspire that at the end of the conference, the delegates go out with enhanced knowledge, better
+
                         communication skills and learn the art of negotiation. All this along with having a great time at
+
                         our conference. </p>
 
+
+
                     <p class="letter-para-text">The Organising Committee of BITSMUN Hyderabad '18 and I once again cordially welcome you to three days
+
                         of intense debate, shrewd diplomacy and an experience to cherish for times to come!</p>
 
+
+
                     <br>
+
                     <div class="text-center" style="color: #1F1F1F; font-size:20px;">
+
                         <img src="assets/img/PHOTOS FOR WEBSITE/sec-gen_sign.jpg" alt="" style="width:300px;">
+
                         <p style="margin-bottom: 3px; color: #1F1F1F; font-size:20px;">
+
                         Pratyush Agarwal
+
                         </p>
+
                         <p  style="margin-bottom: 3px; color: #1F1F1F; font-size:20px;">
+
                         Secretary General
+
                         </p>  
+
                         <p style="margin-bottom: 3px; color: #1F1F1F; font-size:20px;">  
+
                         BITSMUN HYDERABAD'18
+
                     </p>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
     <!--about the event end -->
+
     <!-- committees start  -->
+
     <!-- Website only Visible greater than 1300px :D -->
+
     <div class="pt20 pb20 website-only-visible" style="background-color: #1F1F1F; overflow:auto;display: block;" id="committees">
+
         <div class="w3-content w3-display-container" style="max-width: none; margin: 20px;display: block;">
+
             <div class="mySlides" style="width:100%;">
+
                 
-                    <div class="row">
+
+                    <div class="row pt50">
+
                             <div class="section_title center-block" id="committees">
+
                                     <h3 class="letter-title ml250 slideanim text-white mt0">
+
                                         Committees
+
                                     </h3>
+
                          </div>
+
                     </div>
+
                 
+
+
+
 
 
                 <div class="row">
+
                     <div class="col-md-7 col-xs-12 col-sm-12 text-uppercase" style="display: block;">
+
                         <div class="row">
+
                             <div class="col-md-7 center-block text-center mb150">
-                                <img src="assets/img/brands/b13.png" alt="" style="height:250px;">
+
+                                <img src="assets/img/committees/b13.png" alt="" style="height:250px;">
+
                                 <br>
+
                                 <h5 class="color-light text-uppercase">
+
                                     <br> &nbsp United Nations General Assembly</h5>
+
                                 <hr>
+
                                 <a class="exec-board" data-toggle="modal" data-target="#ungaModal">Our Executive board</a>
+
                                 <div class="modal slideanim" id="ungaModal" style="border:none">
+
                                     <div class="modal-dialog border-0 mt70">
+
                                         <div class="modal-content">
 
+
+
                                             <!-- Modal Header -->
+
                                             <div class="modal-header">
+
                                                 <h4 class="modal-title">United Nations General Assembly</h4>
+
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                             </div>
+
+
 
                                             <!-- Modal body -->
+
                                             <div class="modal-body">
+
                                                 <div class="row">
+
                                                     <div class="col-md-6">
+
                                                         <img src="assets/img/PHOTOS FOR WEBSITE/Kshitij Jain Director UNGA (1).jpg" class="rounded-circle" alt="" style="height: 150px !important;">
+
                                                         <br>
-                                                        <h4 style="color: rgb(59, 89, 152) !important">Kshitij Jain</h3>
+
+                                                        <h4 style="color: rgb(59, 89, 152) !important">Kshitiz Jain</h3>
+
                                                             <h7 class="color-black">Director</h7>
+
                                                     </div>
+
                                                     <div class="col-md-6">
+
                                                         <img src="assets/img/PHOTOS FOR WEBSITE/Tejas Vaid Director GA.jpg" class="rounded-circle" alt="" style="height: 150px !important;">
+
                                                         <br>
+
                                                         <h4 style="color: rgb(59, 89, 152) !important">Tejas Vaid</h3>
+
                                                             <h7 class="color-black">Director</h7>
+
                                                     </div>
+
                                                 </div>
+
                                             </div>
+
+
 
                                             <!-- Modal footer -->
+
                                             <div class="modal-footer">
+
                                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                                             </div>
 
+
+
                                         </div>
+
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
+
+
+
 
 
                     <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-uppercase text-white d-sm-inline pl0 pr80 pt0">
+
                         The United Nations General Assembly (UNGA) is the largest congregation of nations that
+
                         <strong> recommends legal, political, economic, social and humanitarian efforts that help save lives of millions
+
                             across the world</strong>, where each country has an equal voice and vote regardless of the agenda.
+
                         Witness and be a part of the passionate speeches, the delirious negotiations, the blood boiling breaks
+
                         and nail-biting voting sessions. Test your prowess and speak your heart out as you try to find a
+
                         middle ground with your rivals using your negotiation and persuasion skills.
+
                         <strong>Watch it all unfurl at UNGA of BITSMUN ’18.</strong>
+
                         <br>
+
                         <br>
+
                         <br>
+
                         <br>
+
                     </div>
+
                 </div>
+
             </div>
+
+
 
                 <div class="mySlides" style="width:100%;">
+
                 
-                    <div class="row">
+
+                    <div class="row pt50">
+
                             <div class="section_title center-block" id="committees">
+
                                     <h3 class="letter-title ml250 slideanim text-white mt0">
+
                                         Committees
+
                                     </h3>
+
                          </div>
+
                     </div>
 
 
+
+
+
                 <div class="row">
+
                     <div class="col-md-7 col-xs-12 col-sm-12 text-uppercase" style="display: block;">
+
                         <div class="row">
+
                             <div class="col-md-7 center-block text-center mb150">
-                                <img src="assets/img/brands/b12.png" alt="" style="height:250px;">
+
+                                <img src="assets/img/committees/b12.png" alt="" style="height:250px;">
+
                                 <br>
+
                                 <h5 class="color-light text-uppercase">
+
                                     <br> &nbsp SAARC</h5>
+
                                 <hr>
+
                                 <a class="exec-board" data-toggle="modal" data-target="#saarcModal">Our Executive board</a>
+
                                 <div class="modal slideanim" id="saarcModal" style="border:none">
+
                                     <div class="modal-dialog border-0 mt70">
+
                                         <div class="modal-content">
 
+
+
                                             <!-- Modal Header -->
+
                                             <div class="modal-header">
+
                                                 <h4 class="modal-title">United Nations General Assembly</h4>
+
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                             </div>
+
+
 
                                             <!-- Modal body -->
+
                                             <div class="modal-body">
+
                                                 <div class="row">
+
                                                     <div class="col-md-6 center-block text-center">
+
                                                         <img src="assets/img/PHOTOS FOR WEBSITE/Rohit Dwivedula SAARC Director.jpg" class="rounded-circle" alt="" style="height: 150px !important;">
+
                                                         <br>
+
                                                         <h4 style="color: rgb(59, 89, 152) !important">RohitDwivedula</h3>
+
                                                             <h7 class="color-black">Director</h7>
+
                                                     </div>
 
+
+
                                                 </div>
+
                                             </div>
+
+
 
                                             <!-- Modal footer -->
+
                                             <div class="modal-footer">
+
                                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                                             </div>
 
+
+
                                         </div>
+
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
+
                 
 
+
+
                     <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-uppercase text-white d-sm-inline pl0 pr80 pt0">
+
                         <strong>SAARC, the South Asian Association for Regional Cooperation, was founded with lofty goals to “promote
+
                             the welfare of the people of South Asia” and to “strengthen collective self-reliance among the
+
                             countries of South Asia”</strong> promoting active collaboration and mutual assistance in the
+
                         economic, social, cultural, technical and scientific fields. Test your skills as you try to find
+
                         common ground with bitter enemies and neighbors to come to a mutually beneficial consensus.
+
                         <strong>This BITSMUN ’18, can you maintain the balance between political, religious, and economic interests
+
                             of your country and tackle the increasing political tension? </strong>
+
                         <br>
+
                         <br>
+
                         <br>
+
                         <br>
+
                     </div>
+
                 </div>
+
             </div>
+
             <div class="mySlides" style="width:100%;">
+
                 
-                    <div class="row">
+
+                    <div class="row pt50">
+
                             <div class="section_title center-block" id="committees">
+
                                     <h3 class="letter-title ml250 slideanim text-white mt0">
+
                                         Committees
+
                                     </h3>
+
                          </div>
+
                     </div>
+
+
+
 
 
                 <div class="row">
+
                     <div class="col-md-7 col-xs-12 col-sm-12 text-uppercase" style="display: block;">
+
                         <div class="row">
+
                             <div class="col-md-7 center-block text-center mb150">
-                                <img src="assets/img/brands/b11.png" alt="" style="height:250px;">
+
+                                <img src="assets/img/committees/b11.png" alt="" style="height:250px;">
+
                                 <br>
+
                                 <h5 class="color-light text-uppercase">
+
                                     <br> &nbsp United Nations Security Council</h5>
+
                                 <hr>
+
                                 <a class="exec-board" data-toggle="modal" data-target="#unscModal">Our Executive board</a>
+
                                 <div class="modal slideanim" id="unscModal" style="border:none">
+
                                     <div class="modal-dialog border-0 mt70">
+
                                         <div class="modal-content">
 
+
+
                                             <!-- Modal Header -->
+
                                             <div class="modal-header">
+
                                                 <h4 class="modal-title">United Nations Security Council</h4>
+
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                             </div>
+
+
 
                                             <!-- Modal body -->
+
                                             <div class="modal-body">
+
                                                 <div class="row">
+
                                                     <div class="col-md-6 text-center center-block">
+
                                                         <img src="assets/img/PHOTOS FOR WEBSITE/Dev Gupta Director Security Council.jpg" class="rounded-circle" alt="" style="height: 150px !important;">
+
                                                         <br>
+
                                                         <h4 style="color: rgb(59, 89, 152) !important">Dev Gupta</h3>
+
                                                             <h7 class="color-black">Director</h7>
+
                                                     </div>
+
                                                 </div>
+
                                             </div>
+
+
 
                                             <!-- Modal footer -->
+
                                             <div class="modal-footer">
+
                                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                                             </div>
 
+
+
                                         </div>
+
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
 
+
+
                     <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-uppercase text-white d-sm-inline pl0 pr80 pt0">
+
                         <strong> "War is organized murder and nothing else" </strong>
+
                         <br> Presenting to you, the United Nations Security Council. The committee at the center of all the action,
+
                         often holding the match to the fuse. UNSC is the only committee in the United Nations with the ability
+
                         to make resolutions binding on all member nations. It has played an important role over the past
+
                         few years in maintaining peace and security in the international community.
+
                         <strong>If you're the kind of delegate that wants to get past the diplomatic posturing and take actions with
+
                             immediate consequences, UNSC at BITSMUN Hyderabad is the place to be.</strong>
+
                         <br>
+
                         <br>
+
                         <br>
+
                         <br>
+
                     </div>
+
             </div>
+
         </div>
 
 
+
+
+
             <div class="mySlides" style="width:100%;">
+
                 
-                    <div class="row">
+
+                    <div class="row pt50">
+
                             <div class="section_title center-block" id="committees">
+
                                     <h3 class="letter-title ml250 slideanim text-white mt0">
+
                                         Committees
+
                                     </h3>
+
                          </div>
+
                     </div>
 
 
+
+
+
                 <div class="row">
+
                     <div class="col-md-7 col-xs-12 col-sm-12 text-uppercase" style="display: block;">
+
                         <div class="row ">
+
                             <div class="col-md-7 center-block text-center mb150">
-                                <img src="assets/img/brands/b14.png" alt="" style="height:250px;">
+
+                                <img src="assets/img/committees/b14.png" alt="" style="height:250px;">
+
                                 <h5 class="color-light text-uppercase">
+
                                     <br> &nbsp JOINT CRISIS COMMITTEE</h5>
+
                                 <hr>
+
                                 <a class="exec-board" data-toggle="modal" data-target="#jccModal">Our Executive board</a>
 
+
+
                                 <div class="modal slideanim" id="jccModal" style="border:none">
+
                                     <div class="modal-dialog border-0 mt70 bg-gray">
+
                                         <div class="modal-content">
 
+
+
                                             <!-- Modal Header -->
+
                                             <div class="modal-header">
+
                                                 <h4 class="modal-title center-block ml75">JOINT CRISIS COMMITTEE</h4>
+
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                             </div>
+
+
 
                                             <!-- Modal body -->
+
                                             <div class="modal-body">
+
                                                 <div class="row">
+
                                                     <div class="col-md-6 text-center center-block">
+
                                                         <img src="assets/img/PHOTOS FOR WEBSITE/Shaaban Karim Director Continous Crisis Committee.jpg" class="rounded-circle" alt=""
+
                                                             style="height: 150px !important;">
+
                                                         <br>
+
                                                         <h4 style="color: rgb(59, 89, 152) !important">Shaaban Karim</h3>
+
                                                             <h7 class="color-black">Director</h7>
+
                                                     </div>
+
                                                 </div>
+
                                             </div>
+
+
 
                                             <!-- Modal footer -->
+
                                             <div class="modal-footer">
+
                                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                                             </div>
 
+
+
                                         </div>
+
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
+
+
+
 
 
                     <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-uppercase text-white d-sm-inline pl0 pr80 pt0">
+
                         <strong>The stakes have never been higher. A catastrophic event. A world leader is shot dead. Chances of
+
                             nuclear war? Anything can happen. </strong>
+
                         Or what if we could go back in time? Learn from our mistakes and change the course history. Play different roles and do things
+
                         differently. If fast paced and action packed committees are for you, BITSMUN Hyderabad is the place
+
                         to be.
+
                         <strong>Introducing the Joint Crisis Committee where the opportunities are truly limitless.</strong>
+
                         <br>
+
                         <br>
+
                         <br>
+
                         <br>
+
                     </div>
+
                 </div>
+
             </div>
+
             <div class="mySlides" style="width:100%;">
+
                 
-                    <div class="row">
+
+                    <div class="row pt50">
+
                             <div class="section_title center-block" id="committees">
+
                                     <h3 class="letter-title ml250 slideanim text-white mt0">
+
                                         Committees
+
                                     </h3>
+
                          </div>
+
                     </div>
+
+
+
 
 
                 <div class="row">
+
                     <div class="col-md-7 col-xs-12 col-sm-12 text-uppercase" style="display: block;">
+
                         <div class="row">
+
                             <div class="col-md-7 center-block text-center mb150">
-                                <img src="assets/img/brands/b15.png" alt="" style="height:250px;">
+
+                                <img src="assets/img/committees/b15.png" alt="" style="height:250px;">
+
                                 <br>
+
                                 <h5 class="color-light text-uppercase">
+
                                     <br> &nbsp Human Rights Council </h5>
+
                                 <hr>
+
                                 <a class="exec-board" data-toggle="modal" data-target="#hrcModal">Our Executive board</a>
+
                                 <div class="modal slideanim" id="hrcModal" style="border:none">
+
                                     <div class="modal-dialog border-0 mt70">
+
                                         <div class="modal-content">
 
+
+
                                             <!-- Modal Header -->
+
                                             <div class="modal-header">
+
                                                 <h4 class="modal-title text-center ml50">Human Rights Council</h4>
+
                                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                             </div>
+
+
 
                                             <!-- Modal body -->
+
                                             <div class="modal-body">
+
                                                 <div class="row">
+
                                                     <div class="col-md-6 text-center center-block">
+
                                                         <img src="assets/img/PHOTOS FOR WEBSITE/Rishabh Shrimal HRC Director.jpg" class="rounded-circle" alt="" style="height: 150px !important;">
+
                                                         <br>
+
                                                         <h4 style="color: rgb(59, 89, 152) !important">Rishabh Shrimal</h3>
+
                                                             <h7 class="color-black">Director</h7>
+
                                                     </div>
+
                                                     <div class="col-md-6 text-center center-block">
+
                                                         <img src="assets/img/Team Photos/Sonakshi Gupta Director HRC.jpg" class="rounded-circle" alt="" style="height: 150px !important;">
+
                                                         <br>
+
                                                         <h4 style="color: rgb(59, 89, 152) !important">Sonakshi Gupta</h3>
+
                                                             <h7 class="color-black">Director</h7>
+
                                                     </div>
+
                                                 </div>
+
                                             </div>
+
+
 
                                             <!-- Modal footer -->
+
                                             <div class="modal-footer">
+
                                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                                             </div>
 
+
+
                                         </div>
+
                                     </div>
+
                                 </div>
+
                             </div>
+
                         </div>
+
                     </div>
+
+
+
 
 
                     <div class="col-md-5 col-xs-12 col-sm-12 committee-para-text text-uppercase text-white d-sm-inline pl0 pr80 pt0">
+
                         <strong>There can be no peace without development, no development without peace and no lasting peace or sustainable
+
                             development without respect for human rights and the rule of law.</strong> These rights are for
+
                         all of us. Whoever we are and wherever we are from; no matter our class, our opinions, our sexual
+
                         orientation. When the rights of one are threatened, the rights of all are diminished. Our support
+
                         goes to those in the constant struggle to gain these rights or keep them.
+
                         <strong>Our strength is our unity. Unity is our purpose. Unite, uphold and strengthen the importance of securing
+
                             human rights for all people at BITSMUN'18. </strong>
+
                         <br>
+
                         <br>
+
                         <br>
+
                         <br>
+
                     </div>
+
                 </div>
+
             </div>
+
             <button class=" w3-button w3-display-left w3-hover-none w3-hover-text-white" onclick="plusDivs(-1)" style="font-size:2em;">&#10094;</button>
+
             <button class="w3-button w3-display-right w3-hover-none w3-hover-text-white" onclick="plusDivs(1)" style="font-size: 2em;">&#10095;</button>
+
             <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
 
+
+
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
 
+
+
             </div>
+
             <!-- <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+
             <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button> -->
+
         </div>
+
     </div>
 
 
+
+
+
     <!-- 
+
         Phone-only-visible less than 1300px :P
+
     -->
+
     <div class="mobile-only-visible">
+
         <div class="section_title ml30">
+
             <h3 class="letter-title slideanim" id="committee-mobile">
+
                 Committees
+
             </h3>
+
         </div>
+
         <h6 class="ml30" style="font-weight: 100;">
+
             Click on each logo to know more !
+
         </h6>
+
         <br>
+
         <div class="container-fluid ml0 mr0" style="width: 100%;">
 
+
+
             <div class="scrollmenu bg-black" style="margin-bottom: 10px; width: 100% !important;">
+
                 <a data-toggle="modal" data-target="#ungaModal-mobile">
-                    <img src="assets/img/brands/b13.png" alt="UNGA" style="height: 150px;">
+
+                    <img src="assets/img/committees/b13.png" alt="UNGA" style="height: 150px;">
+
                     <div class="text-uppercase slideanim"> United Nations General Assembly</div>
+
                 </a>
+
                 
+
                 <a data-toggle="modal" data-target="#saarcModal-mobile">
-                    <img src="assets/img/brands/b12.png" alt="UNGA" style="height: 150px;">
+
+                    <img src="assets/img/committees/b12.png" alt="UNGA" style="height: 150px;">
+
                     <div class="text-uppercase slideanim"> SAARC</div>
+
                 </a>
+
                 <a data-toggle="modal" data-target="#unscModal-mobile" >
-                    <img src="assets/img/brands/b11.png" alt="UNGA" style="height: 150px;">
+
+                    <img src="assets/img/committees/b11.png" alt="UNGA" style="height: 150px;">
+
                     <div class="text-uppercase slideanim"> United Nations Security Council</div>
+
                 </a>
+
                 <a data-toggle="modal" data-target="#jccModal-mobile">
-                    <img src="assets/img/brands/b14.png" alt="UNGA" style="height: 150px;">
+
+                    <img src="assets/img/committees/b14.png" alt="UNGA" style="height: 150px;">
+
                     <div class="text-uppercase slideanim">
+
                         Joint Crisis Committee
+
                     </div>
+
                 </a>
+
                 <a data-toggle="modal" data-target="#hrcModal-mobile">
-                    <img src="assets/img/brands/b15.png" alt="UNGA" style="height: 150px;">
+
+                    <img src="assets/img/committees/b15.png" alt="UNGA" style="height: 150px;">
+
                     <div class="text-uppercase">
+
                         Human Rights Council
+
                     </div>
+
                 </a>
+
                 
+
             </div>
+
         </div>
+
             <!-- 
+
                 
+
                 Modal windows !  ( Pop Ups )
+
             
+
             -->
+
             <!-- UNGA -->
+
             <div class="modal slideanim" id="ungaModal-mobile" style="border:none">
+
                     <div class="modal-dialog border-0 mt70">
-                        <div class="modal-content">
-    
-                            <!-- Modal Header -->
-                            <div class="modal-header bg-black">
-                                <h4 class="modal-title text-white">United Nations General Assembly</h4>
-                                <img src="assets/img/brands/b13.png" alt="" style="height: 50px;" class="mt5 ml25">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <!-- Write Up -->
-                        
-    
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-12 center-block text-center">
-                                            <div class="committee-para-text-mobile m10">
-                                                    The United Nations General Assembly (UNGA) is the largest congregation of nations that
-                                                    <strong> recommends legal, political, economic, social and humanitarian efforts that help save lives of millions
-                                                        across the world</strong>, where each country has an equal voice and vote regardless of the agenda.
-                                                    Witness and be a part of the passionate speeches, the delirious negotiations, the blood boiling breaks
-                                                    and nail-biting voting sessions. Test your prowess and speak your heart out as you try to find a
-                                                    middle ground with your rivals using your negotiation and persuasion skills.
-                                                    <strong>Watch it all unfurl at UNGA of BITSMUN ’18.</strong> 
-                                                </div>
-                                                </div>
-                                                <div class="col-3 center-block text-center">
-                                        <img src="assets/img/PHOTOS FOR WEBSITE/Kshitij Jain Director UNGA (1).jpg" class="rounded-circle" alt="" style="height: 75px !important; min-width: 75px;">
-                                        <h4 style="color: rgb(59, 89, 152) !important">Kshitij Jain</h3>
-                                            <h7 class="color-black">Director</h7>
-                                        </div>
-                                        
-                                        
-                                    <div class="col-3 center-block text-center">
-                                        <img src="assets/img/PHOTOS FOR WEBSITE/Tejas Vaid Director GA.jpg" class="rounded-circle" alt="" style="height: 75px !important; min-width: 75px;">
-                                        
-                                        <h4 style="color: rgb(59, 89, 152) !important">Tejas Vaid</h3>
-                                            <h7 class="color-black">Director</h7>
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                            </div>
-    
-                        </div>
-                    </div>
-                </div>
-            <!-- SAARC -->
-            <div class="modal slideanim" id="saarcModal-mobile" style="border:none">
-                    <div class="modal-dialog border-0 mt70">
+
                         <div class="modal-content">
 
+    
+
                             <!-- Modal Header -->
+
                             <div class="modal-header bg-black">
-                                <h4 class="modal-title text-white text-center">SAARC</h4>
-                                <img src="assets/img/brands/b12.png" alt="" style="height: 50px;" class="mt5 ml25">
+
+                                <h4 class="modal-title text-white">United Nations General Assembly</h4>
+
+                                <img src="assets/img/committees/b13.png" alt="" style="height: 50px;" class="mt5 ml25">
+
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                             </div>
+
+                            <!-- Write Up -->
+
                         
+
+    
+
                             <!-- Modal body -->
+
                             <div class="modal-body">
+
                                 <div class="row">
+
+                                    <div class="col-12 center-block text-center">
+
+                                            <div class="committee-para-text-mobile m10">
+
+                                                    The United Nations General Assembly (UNGA) is the largest congregation of nations that
+
+                                                    <strong> recommends legal, political, economic, social and humanitarian efforts that help save lives of millions
+
+                                                        across the world</strong>, where each country has an equal voice and vote regardless of the agenda.
+
+                                                    Witness and be a part of the passionate speeches, the delirious negotiations, the blood boiling breaks
+
+                                                    and nail-biting voting sessions. Test your prowess and speak your heart out as you try to find a
+
+                                                    middle ground with your rivals using your negotiation and persuasion skills.
+
+                                                    <strong>Watch it all unfurl at UNGA of BITSMUN ’18.</strong> 
+
+                                                </div>
+
+                                                </div>
+
+                                                <div class="col-3 center-block text-center">
+
+                                        <img src="assets/img/PHOTOS FOR WEBSITE/Kshitij Jain Director UNGA (1).jpg" class="rounded-circle" alt="" style="height: 75px !important; min-width: 75px;">
+
+                                        <h4 style="color: rgb(59, 89, 152) !important">Kshitiz Jain</h3>
+
+                                            <h7 class="color-black">Director</h7>
+
+                                        </div>
+
+                                        
+
+                                        
+
+                                    <div class="col-3 center-block text-center">
+
+                                        <img src="assets/img/PHOTOS FOR WEBSITE/Tejas Vaid Director GA.jpg" class="rounded-circle" alt="" style="height: 75px !important; min-width: 75px;">
+
+                                        
+
+                                        <h4 style="color: rgb(59, 89, 152) !important">Tejas Vaid</h3>
+
+                                            <h7 class="color-black">Director</h7>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <!-- Modal footer -->
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                            </div>
+
+    
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            <!-- SAARC -->
+
+            <div class="modal slideanim" id="saarcModal-mobile" style="border:none">
+
+                    <div class="modal-dialog border-0 mt70">
+
+                        <div class="modal-content">
+
+
+
+                            <!-- Modal Header -->
+
+                            <div class="modal-header bg-black">
+
+                                <h4 class="modal-title text-white text-center">SAARC</h4>
+
+                                <img src="assets/img/committees/b12.png" alt="" style="height: 50px;" class="mt5 ml25">
+
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                            </div>
+
+                        
+
+                            <!-- Modal body -->
+
+                            <div class="modal-body">
+
+                                <div class="row">
+
                                     <div class="col-md-6 center-block text-center">
+
                                             <div class="committee-para-text-mobile m10" >
 
+
+
                                                     <strong>SAARC, the South Asian Association for Regional Cooperation, was founded with lofty goals to “promote
+
                                                         the welfare of the people of South Asia” and to “strengthen collective self-reliance among the
+
                                                         countries of South Asia”</strong> promoting active collaboration and mutual assistance in the
+
                                                     economic, social, cultural, technical and scientific fields. Test your skills as you try to find
+
                                                     common ground with bitter enemies and neighbors to come to a mutually beneficial consensus.
+
                                                     <strong>This BITSMUN ’18, can you maintain the balance between political, religious, and economic interests
+
                                                         of your country and tackle the increasing political tension? </strong>
+
                                                 </div>
+
                                         <img src="assets/img/PHOTOS FOR WEBSITE/Rohit Dwivedula SAARC Director.jpg" class="rounded-circle" alt="" style="height: 75px !important; min-width: 75px;">
+
                                         <br>
+
                                         <h4 style="color: rgb(59, 89, 152) !important">Rohit Dwivedula</h3>
+
                                             <h7 class="color-black">Director</h7>
+
                                     </div>
 
+
+
                                 </div>
+
                             </div>
+
+
 
                             <!-- Modal footer -->
+
                             <div class="modal-footer">
+
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                             </div>
 
+
+
                         </div>
+
                     </div>
+
                 </div>
+
                 <!-- UNSC -->
+
                 <div class="modal slideanim" id="unscModal-mobile" style="border:none">
+
                         <div class="modal-dialog border-0 mt70">
+
                             <div class="modal-content">
 
+
+
                                 <!-- Modal Header -->
+
                                 <div class="modal-header bg-black">
+
                                     <h4 class="modal-title text-white text-center">United Nations Security Council</h4>
-                                    <img src="assets/img/brands/b11.png" alt="" style="height: 50px;" class="mt5 ml25">
+
+                                    <img src="assets/img/committees/b11.png" alt="" style="height: 50px;" class="mt5 ml25">
+
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                 </div>
+
                                 <!-- Modal body -->
+
                                 <div class="modal-body">
+
                                     <div class="row">
+
                                         <div class="col-md-6 text-center center-block">
+
                                             <div class="committee-para-text-mobile m10">
+
                                                 <strong> "War is organized murder and nothing else" </strong>
+
                                                 <br> Presenting to you, the United Nations Security Council. The committee at the center of all the action,
+
                                                 often holding the match to the fuse. UNSC is the only committee in the United Nations with the ability
+
                                                 to make resolutions binding on all member nations. It has played an important role over the past
+
                                                 few years in maintaining peace and security in the international community.
+
                                                 <strong>If you're the kind of delegate that wants to get past the diplomatic posturing and take actions with
+
                                                     immediate consequences, UNSC at BITSMUN Hyderabad is the place to be.</strong>
+
                                                     </div>
+
                                             <img src="assets/img/PHOTOS FOR WEBSITE/Dev Gupta Director Security Council.jpg" class="rounded-circle" alt="" style="height: 70px !important;">
+
                                             <br>
+
                                             <h4 style="color: rgb(59, 89, 152) !important">Dev Gupta</h3>
+
                                                 <h7 class="color-black">Director</h7>
+
                                         </div>
+
                                     </div>
+
                                 </div>
+
+
 
                                 <!-- Modal footer -->
+
                                 <div class="modal-footer">
+
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                                 </div>
 
+
+
                             </div>
+
                         </div>
+
                     </div>
+
+
 
             <!-- JCC -->
+
             <div class="modal slideanim" id="jccModal-mobile" style="border:none">
+
                     <div class="modal-dialog border-0 mt70 bg-gray">
+
                         <div class="modal-content">
 
+
+
                             <!-- Modal Header -->
+
                             <div class="modal-header bg-black">
+
                                     <h4 class="modal-title text-white text-center">Joint Crisis Committee</h4>
-                                    <img src="assets/img/brands/b14.png" alt="" style="height: 50px;" class="mt5 ml25">
+
+                                    <img src="assets/img/committees/b14.png" alt="" style="height: 50px;" class="mt5 ml25">
+
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                             </div>
+
+
 
                             <!-- Modal body -->
+
                             <div class="modal-body">
+
                                 <div class="row">
+
                                     <div class="col-md-6 text-center center-block">
+
                                         <div class="committee-para-text-mobile">
+
                                             <strong>The stakes have never been higher. A catastrophic event. A world leader is shot dead. Chances of
+
                                                     nuclear war? Anything can happen. </strong>
+
                                                 Or what if we could go back in time? Learn from our mistakes and change the course history. Play different roles and do things
+
                                                 differently. If fast paced and action packed committees are for you, BITSMUN Hyderabad is the place
+
                                                 to be.
+
                                                 <strong>Introducing the Joint Crisis Committee where the opportunities are truly limitless.</strong>
+
                                         </div>
+
                                         <img src="assets/img/PHOTOS FOR WEBSITE/Shaaban Karim Director Continous Crisis Committee.jpg" class="rounded-circle" alt=""
+
                                             style="height: 75px !important;">
+
                                         <br>
+
                                         <h4 style="color: rgb(59, 89, 152) !important">Shaaban Karim</h3>
+
                                             <h7 class="color-black">Director</h7>
+
                                     </div>
+
                                 </div>
+
                             </div>
+
+
 
                             <!-- Modal footer -->
+
                             <div class="modal-footer">
+
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                             </div>
 
+
+
                         </div>
+
                     </div>
+
                 </div>
+
                 <!-- HRC  -->
+
                 <div class="modal slideanim" id="hrcModal-mobile" style="border:none">
+
                         <div class="modal-dialog border-0 mt70">
+
                             <div class="modal-content">
 
+
+
                                 <!-- Modal Header -->
+
                                 <div class="modal-header bg-black">
+
                                         <h4 class="modal-title text-white text-center">Human Rights Council</h4>
-                                        <img src="assets/img/brands/b15.png" alt="" style="height: 50px;" class="mt5 ml25">
+
+                                        <img src="assets/img/committees/b15.png" alt="" style="height: 50px;" class="mt5 ml25">
+
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                 </div>
+
+
 
                                 <!-- Modal body -->
+
                                 <div class="modal-body">
+
                                     <div class="row">
+
                                         <div class="col-12 text-center center-block">
+
                                             <div class="committee-para-text-mobile"
-                                                <strong>The stakes have never been higher. A catastrophic event. A world leader is shot dead. Chances of
-                                                        nuclear war? Anything can happen. </strong>
-                                                    Or what if we could go back in time? Learn from our mistakes and change the course history. Play different roles and do things
-                                                    differently. If fast paced and action packed committees are for you, BITSMUN Hyderabad is the place
-                                                    to be.
-                                                    <strong>Introducing the Joint Crisis Committee where the opportunities are truly limitless.</strong>
+
+                                                <strong>There can be no peace without development, no development without peace and no lasting peace or sustainable
+
+                            development without respect for human rights and the rule of law.</strong> These rights are for
+
+                        all of us. Whoever we are and wherever we are from; no matter our class, our opinions, our sexual
+
+                        orientation. When the rights of one are threatened, the rights of all are diminished. Our support
+
+                        goes to those in the constant struggle to gain these rights or keep them.
+
+                        <strong>Our strength is our unity. Unity is our purpose. Unite, uphold and strengthen the importance of securing
+
+                            human rights for all people at BITSMUN'18. </strong>
+
                                             </div>
+
                                             
+
                                         </div>
+
                                         <div class="col-6  text-center center-block">
+
                                                 <img src="assets/img/PHOTOS FOR WEBSITE/Rishabh Shrimal HRC Director.jpg" class="rounded-circle" alt="" style="height: 70px !important;">
+
                                                 <br>
+
                                                 <h4 style="color: rgb(59, 89, 152) !important">Rishabh Shrimal</h3>
+
                                                     <h7 class="color-black">Director</h7>
+
                                         </div>
+
                                         <div class="col-6 text-center center-block">
+
                                             <img src="assets/img/Team Photos/Sonakshi Gupta Director HRC.jpg" class="rounded-circle" alt="" style="height: 70px !important;">
+
                                             <br>
+
                                             <h4 style="color: rgb(59, 89, 152) !important">Sonakshi Gupta</h3>
+
                                                 <h7 class="color-black">Director</h7>
+
                                         </div>
+
                                     </div>
+
                                 </div>
+
+
 
                                 <!-- Modal footer -->
+
                                 <div class="modal-footer">
+
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
                                 </div>
 
+
+
                             </div>
+
                         </div>
+
                     </div>
+
             <!-- committees end -->
+
                 
+
             </div>
+
             <!--contact us section -->
-            <section class="bg-img pt20 pb50" style="background-image: url(assets/img/bg/contact-us.jpg);" id="contact">
+
+            <section class="bg-img pt50 pb50" style="background-image: url(assets/img/bg/contact-us.jpg);" id="contact">
+
                 <div class="container">
+
                         <div class="section_title">
+
                                 <h3 class="letter-title slideanim">
+
                                     CONTACT US 
+
                                 </h3>
-                            </div>
-                    <div class="row">
-                        <div class="col-md-7 text-md-left text-center color-dark">
-                            <div class="row">
-                                <div class="col-md-7 text-md-left text-center color-dark pb10">
-                                    Contact us and we will get back to you in 24 hours
-                                </div>
-                            </div>
-                            <a href="https://www.google.com/maps/place/Birla+Institute+of+Technology+and+Science/@17.5448401,78.5696728,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb835ea819f7f7:0xf65eaaa5a110605f!8m2!3d17.544835!4d78.5718615">
-                                <div class="row">
-                                    <div class="col-md-1 pt5 pb5">
-                                        <img src="./assets/img/Location-512.png" height="25" width="25">
-                                    </div>
-                                    <div class="col-md-6 pt5 pb5 color-dark">
-                                        <strong>BITS PILANI, HYDERABAD CAMPUS</strong>
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="row">
-                                <div class="col-md-1 pt5 pb5">
-                                    <img src="./assets/img/mobile.png" height="25" width="25">
-                                </div>
-                                <div class="col-md-6 pt5 pb5 color-dark">
-                                    <strong>+91&nbsp8851228197</strong>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-1 pt5 pb5">
-                                    <img src="./assets/img/email.png" height="25" width="25">
-                                </div>
-                                <div class="col-md-6 pt5 pb5 color-dark">
-                                    <strong>bitsmunsociety@gmail.com</strong>
-                                </div>
+
                             </div>
 
-                        </div>
-                        <div class="col-md-5 text-md-left text-center" id="frm">
-                                <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfADJhYi0F22tD576SmBEHZ4yTnw9a9d5iqo9fWnaUJDl5NnA/formResponse" method="post" target="_blank">
-                                    <div class="row mdl-textfield mdl-js-textfield">
-                                        <input class="mdl-textfield__input" type="text" id="entry.359129163" name="entry.359129163">
-                                        <label class="mdl-textfield__label" for="sample1">NAME</label>
-                                    </div>
-                                    <div class="row mdl-textfield mdl-js-textfield">
-                                        <input class="mdl-textfield__input" type="text" id="emailAddress" name="emailAddress">
-                                        <label class="mdl-textfield__label" for="sample1">E-MAIL</label>
-                                    </div>
-                                    <div class="row mdl-textfield mdl-js-textfield">
-                                        <input class="mdl-textfield__input" type="text" id="entry.1677436443" name="entry.1677436443">
-                                        <label class="mdl-textfield__label" for="sample1">PHONE</label>
-                                    </div>					
-                                    <div class="mdl-textfield mdl-js-textfield">
-                                        <textarea class="mdl-textfield__input" type="text" rows= "3" id="entry.1550871173" name="entry.1550871173"
-                                        ></textarea>
-                                        <label class="mdl-textfield__label" for="sample5">WRITE YOUR QUERY HERE...</label>
-                                     </div>
-                                    <div class="row justify-content-sm-center center-block justify-content-md-start ">
-                                        <input value="Submit" class="btn btn-primary btn-rounded mt30" type="submit">
-                                    </div>
-                                </form>	
-                    
+                    <div class="row">
+
+                        <div class="col-md-7 text-md-left text-center color-dark">
+
+                            <div class="row">
+
+                                <div class="col-md-7 text-md-left text-center color-dark pb10">
+
+                                    Contact us and we will get back to you in 24 hours
+
+                                </div>
+
                             </div>
+
+                            <a href="https://www.google.com/maps/place/Birla+Institute+of+Technology+and+Science/@17.5448401,78.5696728,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb835ea819f7f7:0xf65eaaa5a110605f!8m2!3d17.544835!4d78.5718615">
+
+                                <div class="row">
+
+                                    <div class="col-md-1 pt5 pb5">
+
+                                        <img src="./assets/img/Location-512.png" height="25" width="25">
+
+                                    </div>
+
+                                    <div class="col-md-6 pt5 pb5 color-dark">
+
+                                        <strong>BITS PILANI, HYDERABAD CAMPUS</strong>
+
+                                    </div>
+
+                                </div>
+
+                            </a>
+
+                            <div class="row">
+
+                                <div class="col-md-1 pt5 pb5">
+
+                                    <img src="./assets/img/mobile.png" height="25" width="25">
+
+                                </div>
+
+                                <div class="col-md-6 pt5 pb5 color-dark">
+
+                                    <strong>+91&nbsp8851228197</strong>
+
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-md-1 pt5 pb5">
+
+                                    <img src="./assets/img/email.png" height="25" width="25">
+
+                                </div>
+
+                                <div class="col-md-6 pt5 pb5 color-dark">
+
+                                    <strong>bitsmunsociety@gmail.com</strong>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="col-md-5 text-md-left text-center" id="frm">
+
+                                <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfADJhYi0F22tD576SmBEHZ4yTnw9a9d5iqo9fWnaUJDl5NnA/formResponse" method="post" target="_blank">
+
+                                    <div class="row mdl-textfield mdl-js-textfield">
+
+                                        <input class="mdl-textfield__input" type="text" id="entry.359129163" name="entry.359129163">
+
+                                        <label class="mdl-textfield__label" for="sample1">NAME</label>
+
+                                    </div>
+
+                                    <div class="row mdl-textfield mdl-js-textfield">
+
+                                        <input class="mdl-textfield__input" type="text" id="emailAddress" name="emailAddress">
+
+                                        <label class="mdl-textfield__label" for="sample1">E-MAIL</label>
+
+                                    </div>
+
+                                    <div class="row mdl-textfield mdl-js-textfield">
+
+                                        <input class="mdl-textfield__input" type="text" id="entry.1677436443" name="entry.1677436443">
+
+                                        <label class="mdl-textfield__label" for="sample1">PHONE</label>
+
+                                    </div>					
+
+                                    <div class="mdl-textfield mdl-js-textfield">
+
+                                        <textarea class="mdl-textfield__input" type="text" rows= "3" id="entry.1550871173" name="entry.1550871173"
+
+                                        ></textarea>
+
+                                        <label class="mdl-textfield__label" for="sample5">WRITE YOUR QUERY HERE...</label>
+
+                                     </div>
+
+                                    <div class="row justify-content-sm-center center-block justify-content-md-start ">
+
+                                        <input value="Submit" class="btn btn-primary btn-rounded mt30" type="submit">
+
+                                    </div>
+
+                                </form>	
+
+                    
+
+                            </div>
+
+
 
                         
+
             </section>
+
             <!--footer start -->
+
             <footer>
+
                 <div class="container pt0 pb0">
+
                     <div class="row justify-content-center pt0 pb0">
 
+
+
                         <div class="col-md-4 col-12 pt0 pb0">
+
                             <div class="footer_box text-center">
+
                                 <div class="footer_box_body">
+
                                     <ul class="footer_social slideanim">
 
+
+
                                         <li>
+
                                             <a href="https://www.facebook.com/bitsmun.hyd">
+
                                                 <i class="ion-social-facebook"></i>
+
                                             </a>
+
                                         </li>
+
                                         <li>
+
                                             <a href="https://twitter.com/bitsmunhyd">
+
                                                 <i class="ion-social-twitter"></i>
+
                                             </a>
+
                                         </li>
+
                                         <li>
+
                                             <a href="https://bitsmunhyd.wordpress.com/">
+
                                                 <i class="ion-social-wordpress"></i>
+
                                             </a>
+
                                         </li>
+
                                         <li>
+
                                             <a href="https://www.instagram.com/bitsmunhyd/">
+
                                                 <i class="ion-social-instagram"></i>
+
                                             </a>
+
                                         </li>
+
                                         <li>
+
                                             <a href="https://www.snapchat.com/add/bitsmun" <i class="ion-social-snapchat">
+
                                                 </i>
+
                                             </a>
+
                                         </li>
+
                                     </ul>
+
                                 </div>
+
                             </div>
+
                         </div>
 
+
+
                     </div>
+
                 </div>
+
                 <div class="text-center">
+
                 &copy BITSMUN'18 HYDERABAD
+
                 </div>
+
             </footer>
+
             <!--footer end -->
+
+
 
             <!-- jquery -->
 
+
+
             <!-- bootstrap -->
+
             <script src="assets/js/popper.js"></script>
+
             <script src="assets/js/bootstrap.min.js"></script>
+
             <script src="assets/js/waypoints.min.js"></script>
+
             <!--slick carousel -->
+
             <script src="assets/js/owl.carousel.min.js"></script>
+
             <!--parallax -->
+
             <script src="assets/js/parallax.min.js"></script>
+
             <!--Counter up -->
+
             <script src="assets/js/jquery.counterup.min.js"></script>
+
             <!--Counter down -->
+
             <script src="assets/js/jquery.countdown.min.js"></script>
+
             <!-- WOW JS -->
+
             <script src="assets/js/wow.min.js"></script>
+
             <!-- Custom js -->
+
             <script src="assets/js/main.js"></script>
+
             <script>
+
                 var slideIndex = 1;
+
                 showDivs(slideIndex);
 
+
+
                 function plusDivs(n) {
+
                     showDivs(slideIndex += n);
+
                 }
+
+
 
                 function currentDiv(n) {
+
                     showDivs(slideIndex = n);
+
                 }
 
+
+
                 function showDivs(n) {
+
                     var i;
+
                     var x = document.getElementsByClassName("mySlides");
+
                     var dots = document.getElementsByClassName("demo");
+
                     if (n > x.length) {
+
                         slideIndex = 1
+
                     }
+
                     if (n < 1) {
+
                         slideIndex = x.length
+
                     }
+
                     for (i = 0; i < x.length; i++) {
+
                         x[i].style.display = "none";
+
                     }
+
                     for (i = 0; i < dots.length; i++) {
+
                         dots[i].className = dots[i].className.replace(" w3-white", "");
+
                     }
+
                     x[slideIndex - 1].style.display = "block";
+
                     dots[slideIndex - 1].className += " w3-white";
+
                 }
+
                 $(function () {
+
                     $("#accordion1").accordion({
+
                         autoHeight: false,
+
                         collapsible: true,
+
                         heightStyle: "content",
+
                         active: 0,
+
                         animate: 300 // collapse will take 300ms
+
                     });
+
                     $('.showSAARC').bind('click', function () {
+
                         var self = this;
+
                         setTimeout(function () {
+
                             theOffset = $(self).offset();
+
                             $('body,html').animate({
+
                                 scrollTop: theOffset.top - 100
+
                             });
+
                         }, 310); // ensure the collapse animation is done
+
                     });
+
                 });
+
             </script>
+
 </body>
+
+
 
 </html>

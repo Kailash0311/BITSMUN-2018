@@ -419,6 +419,13 @@ ul.nosyely_list {
   color: #abcd58;
 }
 
+.bottom-right{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  size: 16px;
+}
+
 .bg-img {
   border-radius: 4px;
   background-size: cover;
